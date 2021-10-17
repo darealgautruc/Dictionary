@@ -10,8 +10,12 @@ public class DictionaryCommandline {
         }
     }
     public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
-        dim.insertFromFile(a);
     	showAllWords(a);
         dim.insertFromCommandline(a);
+    }
+    public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException {
+        dim.insertFromFile(dic);
+        showAllWords(dic);
+        dim.dictionaryLookup(dic);
     }
 }

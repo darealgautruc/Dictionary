@@ -28,5 +28,18 @@ public class DictionaryManagement {
 	    }
         sc.close();        
     }
+    public void dictionaryLookup(Dictionary dic){
+        String s;
+        System.out.println("Nhap tu can tra");
+        Scanner sc = new Scanner(System.in);
+        s = sc.next();
+        for(int i = 0; i<dic.word_list.size(); i++) {
+            if(dic.word_list.get(i).getWord_target().equals(s) ||
+            dic.word_list.get(i).getWord_explain().equals(s)) {
+                System.out.print(dic.word_list.get(i).getWord_target() +
+                        " " + dic.word_list.get(i).getWord_explain());
+            }
+        }
+    }
 
 }
