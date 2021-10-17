@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+
 public class DictionaryCommandline {
     private DictionaryManagement dim = new DictionaryManagement();
     public void showAllWords(Dictionary x) {
@@ -7,8 +9,9 @@ public class DictionaryCommandline {
             System.out.println(x.word_list.get(i).getWord_explain());
         }
     }
-    public void dictionaryBasic(Dictionary a) {
-        showAllWords(a);
+    public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
+        dim.insertFromFile(a);
+    	showAllWords(a);
         dim.insertFromCommandline(a);
     }
 }
