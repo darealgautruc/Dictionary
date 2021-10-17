@@ -1,0 +1,8 @@
+home	ngoi nha
+school	truong hoc
+mother	me
+father	bo
+girl	con gai
+boy	con trai
+class	lop
+darling	nguoi yeu
