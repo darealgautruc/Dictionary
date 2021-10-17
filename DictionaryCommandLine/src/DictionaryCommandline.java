@@ -1,5 +1,5 @@
 public class DictionaryCommandline {
-    private DictionaryManagement dim = new DictionaryManagement();
+    DictionaryManagement dim = new DictionaryManagement();
     public void showAllWords(Dictionary x) {
         System.out.println("No   | English      | Vietnamese");
         for(int i=0; i<x.word_list.size(); i++) {
