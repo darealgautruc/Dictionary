@@ -5,10 +5,11 @@ public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
 		Dictionary dic = new Dictionary();
-		DictionaryCommandline dim = new DictionaryCommandline();
-
+		DictionaryCommandline DC = new DictionaryCommandline();
+		DictionaryManagement DM = new DictionaryManagement();
 		while(dic.word_list.size() >=0 ) {
-			dim.dictionaryBasic(dic);
+			DC.dictionaryBasic(dic);
+			DM.themSuaXoa(dic);
 		}
 
 	}
