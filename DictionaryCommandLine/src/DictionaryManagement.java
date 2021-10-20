@@ -87,21 +87,22 @@ public class DictionaryManagement {
                 insertFromCommandline(dic);
             }
             // Note sửa từ.
-    /*        if (n == 2) {
+            if (n == 2) {
                 System.out.println("Nhập từ bạn muốn sửa: ");
-                s = sc.next().toLowerCase();
+                s = sc.nextLine().toLowerCase();
                 if (!existsWord(dic, s)) {
                     System.out.println("Không có từ này trong từ điển. Vui lòng kiểm tra lại");
                 } else {
                     for(int i = 0; i < dic.word_list.size(); i++) {
                         if(s.equals(dic.word_list.get(i).getWord_target())) {
                             System.out.println("Nhập nghĩa mới của từ: ");
-                            String nghia = sc.next();
+                            String nghia = sc.nextLine();
                             dic.word_list.get(i).setWord_explain(nghia);
+                            break;
                         }
                     }
                 }
-            } */
+            } 
             if (n == 3) {
                 System.out.println("Nhập từ bạn muốn xóa: ");
                 s = sc.next().toLowerCase();
@@ -116,7 +117,7 @@ public class DictionaryManagement {
                 }
             }
             if( n==4) {
-
+            	return;
             }
         }
     }

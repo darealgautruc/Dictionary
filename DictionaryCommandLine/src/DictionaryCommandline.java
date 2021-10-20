@@ -13,8 +13,9 @@ public class DictionaryCommandline {
     }
     /** gọi 2 hàm thêm từ (dòng lệnh) và in ra từ.*/
     public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
+//      dim.insertFromCommandline(a);
+    	dim.themSuaXoa(a);
     	showAllWords(a);
-        dim.insertFromCommandline(a);
     }
     /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
     public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException {
