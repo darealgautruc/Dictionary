@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DictionaryCommandline {
@@ -17,7 +18,7 @@ public class DictionaryCommandline {
         dim.insertFromCommandline(a);
     }
     /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
-    public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException {
+    public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
         dim.insertFromFile(dic);
         showAllWords(dic);
         Scanner sc = new Scanner(System.in);
@@ -25,9 +26,8 @@ public class DictionaryCommandline {
         dim.dictionaryLookup(dic,tu);
     }
     /** Hàm tra từ.*/
-    public void dictionarySearcher(Dictionary dic) {
+    public void dictionarySearcher(Dictionary dic,String s) {
         System.out.println("Nhập từ cần tra: ");
-        String s;
         Dictionary a = new Dictionary();
         Scanner sc= new Scanner(System.in);
         s = sc.next();

@@ -1,6 +1,4 @@
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
+import java.io.*;
 import java.util.Scanner;
 public class DictionaryManagement {
     /**
@@ -26,20 +24,21 @@ public class DictionaryManagement {
     }
 
     /**
-     * Thêm từ mới từ file.
+     * Nhập dữ liệu từ điển từ file.
      */
-    public void insertFromFile(Dictionary dic) throws FileNotFoundException {
+    public void insertFromFile(Dictionary dic) throws FileNotFoundException,IOException {
         System.setIn(new FileInputStream("src/dictionary.txt"));
         Scanner sc = new Scanner(System.in);
-
         while (sc.hasNext()) {
-            Word word = new Word();
-            String s1 = sc.next();
-            String s2 = sc.next();
-            word.setWord_target(s1);
-            word.setWord_explain(s2);
-            dic.word_list.add(word);
-        }
+            while (sc.hasNextLine()){
+                Word word = new Word();
+                String s = sc.nextLine();
+                String[] add = s.split("\\t",2);
+                word.setWord_target(add[0]);
+                word.setWord_explain(add[1]);
+                dic.word_list.add(word);
+                }
+            }
         sc.close();
     }
 
@@ -76,32 +75,35 @@ public class DictionaryManagement {
     /**
      * Thêm sửa xóa từ.
      */
-    public void themSuaXoa(Dictionary dic) {
+    public void themSuaXoa(Dictionary dic,DictionaryCommandline DC) throws IOException {
         String s = new String();
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("Bạn sẽ làm gì?\n 1:Thêm từ\n 2:Sửa từ\n 3:Xóa từ\n 4:Trở lại");
+            System.out.println("Bạn sẽ làm gì?\n 1:Thêm từ.\n 2:Sửa từ.\n 3:Xóa từ.\n 4:Không làm gì cả!");
             int n = sc.nextInt();
             sc.nextLine();
             if (n == 1) {
                 insertFromCommandline(dic);
+                DC.showAllWords(dic);
             }
             // Note sửa từ.
-    /*        if (n == 2) {
+            if (n == 2) {
                 System.out.println("Nhập từ bạn muốn sửa: ");
-                s = sc.next().toLowerCase();
+                s = sc.nextLine().toLowerCase();
                 if (!existsWord(dic, s)) {
                     System.out.println("Không có từ này trong từ điển. Vui lòng kiểm tra lại");
                 } else {
                     for(int i = 0; i < dic.word_list.size(); i++) {
                         if(s.equals(dic.word_list.get(i).getWord_target())) {
                             System.out.println("Nhập nghĩa mới của từ: ");
-                            String nghia = sc.next();
+                            String nghia = sc.nextLine();
                             dic.word_list.get(i).setWord_explain(nghia);
                         }
                     }
                 }
-            } */
+                DC.showAllWords(dic);
+            }
+
             if (n == 3) {
                 System.out.println("Nhập từ bạn muốn xóa: ");
                 s = sc.next().toLowerCase();
@@ -114,15 +116,22 @@ public class DictionaryManagement {
                         }
                     }
                 }
+                DC.showAllWords(dic);
             }
             if( n==4) {
-
+                return;
             }
         }
     }
-    public void dictionaryExportToFile(Dictionary dic) throws FileNotFoundException {
-        FileOutputStream file = new FileOutputStream("src/dictionary.txt");
-
+    /**
+     * Hàm ghi từ vào file.
+     */
+    public void dictionaryExportToFile(Dictionary dic) throws IOException {
+        FileWriter file = new FileWriter("src/dictionary.txt");
+        for(int i = 0; i < dic.word_list.size(); i++) {
+            file.write(dic.word_list.get(i).getWord_target() + '\t' + dic.word_list.get(i).getWord_explain() + '\n');
+        }
+        file.close();
     }
 }
 

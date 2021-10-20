@@ -1,8 +1,5 @@
-home	nha
-school	truong
-mother	me
-father	bo
-girl	gai
-boy	    trai
-class	lop
-darling	nguoiyeu
+apple	quả táo
+art	hội họa
+table	cái bàn
+yasuo	đấng
+leesin	thầy tu mù
