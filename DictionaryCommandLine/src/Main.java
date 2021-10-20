@@ -9,7 +9,8 @@ public class Main {
 		DictionaryManagement DM = new DictionaryManagement();
 		while(dic.word_list.size() >=0 ) {
 			DC.dictionaryBasic(dic);
-			DM.themSuaXoa(dic);
+//			DM.themSuaXoa(dic);
+			DC.dictionarySearcher(dic);
 		}
 
 	}

@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class DictionaryCommandline {
     private DictionaryManagement dim = new DictionaryManagement();
+
     /** In ra danh sách các từ.*/
     public void showAllWords(Dictionary x) {
         System.out.println("No  | English                  | Vietnamese");
@@ -22,6 +23,21 @@ public class DictionaryCommandline {
         Scanner sc = new Scanner(System.in);
         String tu = sc.next().toLowerCase();
         dim.dictionaryLookup(dic,tu);
-
     }
+    /** Hàm tra từ.*/
+    public void dictionarySearcher(Dictionary dic) {
+        System.out.println("Nhập từ cần tra: ");
+        String s;
+        Dictionary a = new Dictionary();
+        Scanner sc= new Scanner(System.in);
+        s = sc.next();
+        for(int i = 0; i < dic.word_list.size(); i++) {
+            if(dic.word_list.get(i).getWord_target().contains(s)) {
+                a.word_list.add(dic.word_list.get(i));
+                }
+            }
+            showAllWords(a);
+        }
+
 }
+
