@@ -10,7 +10,7 @@ public class Main {
 		while(dic.word_list.size() >=0 ) {
 			DC.dictionaryBasic(dic);
 //			DM.themSuaXoa(dic);
-			DC.dictionarySearcher(dic);
+			if(dic.word_list.size() > 3) DC.dictionarySearcher(dic);
 		}
 
 	}

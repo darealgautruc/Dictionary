@@ -32,7 +32,7 @@ public class DictionaryCommandline {
         Scanner sc= new Scanner(System.in);
         s = sc.next();
         for(int i = 0; i < dic.word_list.size(); i++) {
-            if(dic.word_list.get(i).getWord_target().contains(s)) {
+            if(dic.word_list.get(i).getWord_target().substring(0, s.length()).equals(s)) {
                 a.word_list.add(dic.word_list.get(i));
                 }
             }
