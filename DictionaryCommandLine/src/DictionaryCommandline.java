@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class DictionaryCommandline {
-    private DictionaryManagement dim = new DictionaryManagement();
+    private DictionaryManagement DM = new DictionaryManagement();
 
     /** In ra danh sách các từ.*/
     public void showAllWords(Dictionary x) {
@@ -14,30 +14,32 @@ public class DictionaryCommandline {
     }
     /** gọi 2 hàm thêm từ (dòng lệnh) và in ra từ.*/
     public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
-//      dim.insertFromCommandline(a);
-    	dim.themSuaXoa(a);
-    	showAllWords(a);
+      DM.insertFromCommandline(a);
+      showAllWords(a);
     }
     /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
     public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
-        dim.insertFromFile(dic);
+        DM.insertFromFile(dic);
         showAllWords(dic);
         Scanner sc = new Scanner(System.in);
         String tu = sc.next().toLowerCase();
-        dim.dictionaryLookup(dic,tu);
+        DM.dictionaryLookup(dic,tu);
     }
     /** Hàm tra từ.*/
     public void dictionarySearcher(Dictionary dic,String s) {
-        System.out.println("Nhập từ cần tra: ");
         Dictionary a = new Dictionary();
-        Scanner sc= new Scanner(System.in);
-        s = sc.next();
-        for(int i = 0; i < dic.word_list.size(); i++) {
-            if(dic.word_list.get(i).getWord_target().substring(0, s.length()).equals(s)) {
-                a.word_list.add(dic.word_list.get(i));
+        for(Word w : dic.word_list) {
+            if(w.getWord_target().startsWith(s)) {
+                a.word_list.add(w);
                 }
             }
-            showAllWords(a);
+            if(a.word_list.isEmpty()){
+                System.out.println("Không có từ bạn cần trong từ điển");
+            }
+            else {
+                showAllWords(a);
+            }
+
         }
 
 }

@@ -1,5 +1,2 @@
 apple	quả táo
-art	hội họa
-table	cái bàn
-yasuo	đấng
-leesin	thầy tu mù
+brother	anh em trai

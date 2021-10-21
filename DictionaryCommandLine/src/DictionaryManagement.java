@@ -84,7 +84,6 @@ public class DictionaryManagement {
             sc.nextLine();
             if (n == 1) {
                 insertFromCommandline(dic);
-                DC.showAllWords(dic);
             }
             // Note sửa từ.
             if (n == 2) {
@@ -101,7 +100,6 @@ public class DictionaryManagement {
                         }
                     }
                 }
-                DC.showAllWords(dic);
             }
 
             if (n == 3) {
@@ -113,10 +111,10 @@ public class DictionaryManagement {
                     for (int i = 0; i < dic.word_list.size(); i++) {
                         if (s.equals(dic.word_list.get(i).getWord_target())) {
                             dic.word_list.remove(i);
+                            System.out.println("Đã xóa.");
                         }
                     }
                 }
-                DC.showAllWords(dic);
             }
             if( n==4) {
                 return;
@@ -133,6 +131,14 @@ public class DictionaryManagement {
         }
         file.close();
     }
+    /**
+     * Hàm xóa file.
+     */
+    public void removeFile(Dictionary dic) throws IOException {
+        File file = new File("src/dictionary.txt");
+        file.delete();
+    }
+
 }
 
 
