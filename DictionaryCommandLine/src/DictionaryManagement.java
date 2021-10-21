@@ -1,4 +1,5 @@
 import java.io.*;
+import java.nio.file.Paths;
 import java.util.Scanner;
 public class DictionaryManagement {
     /**
@@ -26,20 +27,20 @@ public class DictionaryManagement {
     /**
      * Nhập dữ liệu từ điển từ file.
      */
-    public void insertFromFile(Dictionary dic) throws FileNotFoundException,IOException {
-        System.setIn(new FileInputStream("src/dictionary.txt"));
-        Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()) {
-            while (sc.hasNextLine()){
-                Word word = new Word();
-                String s = sc.nextLine();
-                String[] add = s.split("\\t",2);
-                word.setWord_target(add[0]);
-                word.setWord_explain(add[1]);
-                dic.word_list.add(word);
-                }
+
+    public void insertFromFile(Dictionary list) throws IOException {
+        Scanner scanner = new Scanner(Paths.get("src/dictionary.txt"),"UTF-8");
+        while (scanner.hasNext()) {
+            while (scanner.hasNextLine()) {
+                Word x = new Word();
+                String s = scanner.nextLine();
+                String[] word = s.split("\\t", 2);
+                x.setWord_target(word[0]);
+                x.setWord_explain(word[1]);
+                list.word_list.add(x);
             }
-        sc.close();
+        }
+        scanner.close();
     }
 
     /**
@@ -84,11 +85,9 @@ public class DictionaryManagement {
             sc.nextLine();
             if (n == 1) {
                 insertFromCommandline(dic);
-    /* Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
+    // Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
                removeFile(dic);
                 dictionaryExportToFile(dic);
-
-     */
             }
             // Note sửa từ.
             if (n == 2) {
@@ -105,11 +104,8 @@ public class DictionaryManagement {
                         }
                     }
                 }
-   /* Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
                removeFile(dic);
                 dictionaryExportToFile(dic);
-
-     */
             }
 
             if (n == 3) {
@@ -125,11 +121,8 @@ public class DictionaryManagement {
                         }
                     }
                 }
-   /* Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
                removeFile(dic);
                 dictionaryExportToFile(dic);
-
-     */
             }
             if( n==4) {
                 return;

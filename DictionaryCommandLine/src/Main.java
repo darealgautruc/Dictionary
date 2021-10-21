@@ -11,7 +11,7 @@ public class Main {
 		Dictionary dic = new Dictionary();
 		DictionaryCommandline DC = new DictionaryCommandline();
 		DictionaryManagement DM = new DictionaryManagement();
-
+		DM.insertFromFile(dic);
 //		DM.insertFromCommandline(dic);
 //		DM.dictionaryExportToFile(dic);
 		while (true) {
@@ -25,7 +25,6 @@ public class Main {
 			int x = sc.nextInt();
 			sc.nextLine();
 			if (x == 1) {
-//				DM.insertFromFile(dic);
 				System.out.println("Nhập từ bạn cần tìm: ");
 				String search = sc.nextLine().toLowerCase();
 				DC.dictionarySearcher(dic,search);
@@ -36,11 +35,9 @@ public class Main {
 //				DM.dictionaryExportToFile(dic);
 			}
 			else if (x == 3) {
-				DM.insertFromFile(dic);
 				DC.showAllWords(dic);
 			}
 			else if(x == 4) {
-
 				return;
 			}
 		}

@@ -1,2 +1,3 @@
-apple	quả táo
 brother	anh em trai
+body	phần thân
+apple	quả táo
