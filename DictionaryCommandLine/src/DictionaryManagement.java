@@ -84,6 +84,11 @@ public class DictionaryManagement {
             sc.nextLine();
             if (n == 1) {
                 insertFromCommandline(dic);
+    /* Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
+               removeFile(dic);
+                dictionaryExportToFile(dic);
+
+     */
             }
             // Note sửa từ.
             if (n == 2) {
@@ -100,6 +105,11 @@ public class DictionaryManagement {
                         }
                     }
                 }
+   /* Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
+               removeFile(dic);
+                dictionaryExportToFile(dic);
+
+     */
             }
 
             if (n == 3) {
@@ -115,6 +125,11 @@ public class DictionaryManagement {
                         }
                     }
                 }
+   /* Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
+               removeFile(dic);
+                dictionaryExportToFile(dic);
+
+     */
             }
             if( n==4) {
                 return;
