@@ -1,3 +1,4 @@
 brother	anh em trai
 body	phần thân
 apple	quả táo
+darling	người yêu

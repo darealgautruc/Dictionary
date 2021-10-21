@@ -86,7 +86,6 @@ public class DictionaryManagement {
             if (n == 1) {
                 insertFromCommandline(dic);
     // Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
-               removeFile(dic);
                 dictionaryExportToFile(dic);
             }
             // Note sửa từ.
@@ -104,7 +103,6 @@ public class DictionaryManagement {
                         }
                     }
                 }
-               removeFile(dic);
                 dictionaryExportToFile(dic);
             }
 
@@ -121,7 +119,6 @@ public class DictionaryManagement {
                         }
                     }
                 }
-               removeFile(dic);
                 dictionaryExportToFile(dic);
             }
             if( n==4) {
@@ -142,10 +139,10 @@ public class DictionaryManagement {
     /**
      * Hàm xóa file.
      */
-    public void removeFile(Dictionary dic) throws IOException {
-        File file = new File("src/dictionary.txt");
-        file.delete();
-    }
+//    public void removeFile(Dictionary dic) throws IOException {
+//        File file = new File("src/dictionary.txt");
+//        file.delete();
+//    }
 
 }
 
