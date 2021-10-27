@@ -1,4 +1,4 @@
- the	các
+the	các
 be	được
 and	và
 of	của
@@ -998,7 +998,6 @@ instead	thay thế
 improve	cải tiến
 stuff	đồ đạc
 detail	chi tiết
-1000 - 2000 từ vựng phổ biến thường gặp nhất
 method	phương pháp
 sign	ký tên
 somebody	có ai
@@ -2940,3 +2939,6 @@ steady	vững chắc
 vital	quan trọng
 neither	cũng không
 fate	số phận
+brother	anh em trai
+body	cơ thể
+apple	quả táo sửa lại

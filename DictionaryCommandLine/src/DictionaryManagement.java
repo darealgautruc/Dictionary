@@ -29,7 +29,7 @@ public class DictionaryManagement {
      */
 
     public void insertFromFile(Dictionary list) throws IOException {
-        Scanner scanner = new Scanner(Paths.get("D:\\Git_Dictionary\\DictionaryCommandLine\\src\\dictionary.txt"),"UTF-8");
+        Scanner scanner = new Scanner(Paths.get("src/dictionary.txt"),"UTF-8");
         while (scanner.hasNext()) {
             while (scanner.hasNextLine()) {
                 Word x = new Word();
@@ -103,7 +103,12 @@ public class DictionaryManagement {
                         }
                     }
                 }
+//<<<<<<< Updated upstream
                 dictionaryExportToFile(dic);
+//=======
+////               removeFile(dic);
+//               dictionaryExportToFile(dic);
+//>>>>>>> Stashed changes
             }
 
             if (n == 3) {
