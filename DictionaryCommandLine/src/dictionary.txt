@@ -2941,4 +2941,3 @@ neither	cũng không
 fate	số phận
 brother	anh em trai
 body	cơ thể
-apple	quả táo sửa lại

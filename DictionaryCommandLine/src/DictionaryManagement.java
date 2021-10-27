@@ -1,3 +1,5 @@
+import com.sun.speech.freetts.VoiceManager;
+
 import java.io.*;
 import java.nio.file.Paths;
 import java.util.Scanner;
@@ -29,7 +31,7 @@ public class DictionaryManagement {
      */
 
     public void insertFromFile(Dictionary list) throws IOException {
-        Scanner scanner = new Scanner(Paths.get("src/dictionary.txt"),"UTF-8");
+        Scanner scanner = new Scanner(Paths.get("D:\\Git_Dictionary\\DictionaryCommandLine\\src\\dictionary.txt"),"UTF-8");
         while (scanner.hasNext()) {
             while (scanner.hasNextLine()) {
                 Word x = new Word();
@@ -48,15 +50,22 @@ public class DictionaryManagement {
      */
     public void dictionaryLookup(Dictionary dic, String s) {
         System.out.println("Nhập từ cần tìm kiếm: ");
+        int count = 0;
+        String nghia = null;
         Scanner sc = new Scanner(System.in);
         s = sc.next();
         for (int i = 0; i < dic.word_list.size(); i++) {
             if (dic.word_list.get(i).getWord_target().equals(s)) {
-                System.out.print("English: " + dic.word_list.get(i).getWord_target() +
-                        " " + "Vietnamese: " + dic.word_list.get(i).getWord_explain());
-            } else {
-                System.out.println("Từ này không có trong từ điển");
+                nghia = dic.word_list.get(i).getWord_explain();
+                count += 1;
             }
+        }
+        if(count > 0) {
+            System.out.println("TA: " + s + " TV:" + nghia);
+            ReadText.speech(s);
+        }
+        else {
+            System.out.println("Từ này không có trong từ điển!");
         }
 
     }
@@ -141,14 +150,11 @@ public class DictionaryManagement {
         }
         file.close();
     }
-    /**
-     * Hàm xóa file.
-     */
-//    public void removeFile(Dictionary dic) throws IOException {
-//        File file = new File("src/dictionary.txt");
-//        file.delete();
-//    }
 
+    /**
+     * đọc text.
+     * @param text .
+     */
 }
 
 

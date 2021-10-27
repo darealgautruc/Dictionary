@@ -12,8 +12,6 @@ public class Main {
 		DictionaryCommandline DC = new DictionaryCommandline();
 		DictionaryManagement DM = new DictionaryManagement();
 		DM.insertFromFile(dic);
-//		DM.insertFromCommandline(dic);
-//		DM.dictionaryExportToFile(dic);
 		while (true) {
 			System.out.println("---------------------------------");
 			System.out.println("Tôi có thể giúp gì cho bạn?\n" +
