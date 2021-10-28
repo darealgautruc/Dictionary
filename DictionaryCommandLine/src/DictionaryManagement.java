@@ -151,10 +151,15 @@ public class DictionaryManagement {
         file.close();
     }
 
-    /**
-     * đọc text.
-     * @param text .
-     */
+    public void delete(Dictionary dic) {
+        for(int i= 0; i < dic.word_list.size() - 1; i++) {
+            for(int j = i+1; j < dic.word_list.size(); j++) {
+                if(dic.word_list.get(i).getWord_target().equals(dic.word_list.get(j).getWord_target())) {
+                    dic.word_list.remove(j);
+                }
+            }
+        }
+    }
 }
 
 

@@ -2941,3 +2941,2533 @@ neither	cũng không
 fate	số phận
 brother	anh em trai
 body	cơ thể
+Abadon	Bỏ
+Abolish	Bỏ
+Absorb	Hấp thụ
+Abuse	Lạm dụng
+Accept	Chấp nhận
+Access	Quyền
+Accommodate	Chứa
+Accompany	Hộ tống
+Account	Trương mục
+Accumulate	Tích trữ
+Accuse	Tố cáo
+Achieve	Hoàn thành
+Acknowledge	Công nhận
+Acquire	Mua
+Act	Hành động
+Activate	Hoạt động
+Adapt	Phỏng theo
+Add	Thêm
+Address	Địa chỉ
+Adjust	Điều chỉnh
+Administer	Thi hành
+Admire	Ngưỡng mộ
+Admit	Thừa nhận
+Adopt	Nhận nuôi
+Advance	Trước
+Advertise	Quảng cáo
+Advise	Khuyến cáo
+Advocate	Người bênh vực
+Affect	Có ảnh hưởng đến
+Afford	Đủ khả năng
+Age	Tuổi
+Agree	Đồng ý
+Aid	Viện trợ
+Aim	Mục tiêu
+Alert	Báo động
+Allege	Quả quyết
+Allocate	Chỉ định
+Allow	Cho phép
+Alter	Thay đổi
+Amend	Tu chính
+Amount	Lượng
+Analyse	Phân tích
+Announce	Thông báo
+Answer	Câu trả lời
+Anticipate	Đi trước
+Appeal	Kháng cáo
+Appear	Xuất hiện
+Apply	Ứng dụng
+Appoint	Bổ nhiệm
+Appreciate	Đánh giá
+Approach	Phương pháp tiếp cận
+Approve	Phê duyệt
+Argue	Tranh luận
+Arise	Nổi lên
+Arm	Cánh tay
+Arouse	Đánh thức
+Arrange	Sắp xếp
+Arrest	Bắt giữ
+Arrive	Đến
+Ask	Hỏi
+Assemble	Tập hợp
+Assert	Xác nhận
+Assess	Đánh giá
+Assign	Chỉ định
+Assist	Hỗ trợ
+Associate	Liên kết
+Assume	Đảm đương
+Assure	Cam đoan
+Attach	Đính kèm
+Attack	Tấn công
+Attain	Đạt
+Attempt	Thử
+Attend	Đi học
+Attract	Thu hút
+Attribute	Đặc tính
+Avoid	Tránh
+Await	Chờ
+Award	Phần thưởng
+Back	Trở lại
+Balance	Balance
+Ban	Ban
+Bang	Tiếng nổ
+Base	Căn cứ
+Be	Là
+Bear	Chịu
+Beat	Đánh đập
+Become	Trở thành
+Beg	Ăn mày
+Begin	Bắt đầu
+Behave	Hành xử
+Believe	Tin
+Belong	Thuộc về
+Bend	Uốn cong
+Benefit	Lợi ích
+Bet	Đánh cuộc
+Bid	Thầu
+Bind	Buộc
+Bite	Cắn
+Blame	Khiển trách
+Block	Khối
+Blow	Thổi
+Boast	Khoe khoan
+Boil	Nhọt
+Book	Sách
+Boost	Tăng
+Born	Sinh
+Borrow	Vay
+Bother	Làm phiền
+Bounce	Tung lên
+Bound	Giới hạn
+Bow	Cây cung
+Break	Nghỉ
+Breathe	Thở
+Breed	Giống
+Bring	Đem lại
+Brush	Bàn chải
+Build	Xây dựng
+Burn	Đốt cháy
+Burst	Nổ
+Bury	Chôn
+Buy	Mua
+Calculate	Tính toán
+Call	Gọi
+Calm	Yên lặng
+Campaign	Chiến dịch
+Cancel	Hủy bỏ
+Capture	Bắt
+Care	Chăm sóc
+Carry	Mang
+Carve	Khắc
+Cast	Đúc
+Catch	Catch
+Cater	Cung cấp
+Cause	Nguyên nhân
+Cease	Ngừng
+Celebrate	Tán dương
+Centre	Trung tâm
+Challenge	Thách
+Change	Thay đổi
+Characterise	Đặc trưng
+Characterize	Đặc trưng
+Charge	Phí
+Chase	Đuổi theo
+Chat	Trò chuyện
+Check	Kiểm tra
+Cheer	Vui lên
+Choose	Chọn
+Circulate	Lưu hành
+Cite	Dẫn chứng
+Claim	Yêu cầu
+Clarify	Lọc
+Classify	Phân loại
+Clean	Sạch
+Clear	Trong sáng
+Climb	Leo
+Cling	Bám vào
+Close	Gần
+Clutch	Chân
+Coincide	Phù hợp
+Collapse	Sập
+Collect	Sưu tầm
+Colour	Màu
+Combine	Phối hợp
+Come	Đến
+Command	Chỉ huy
+Commence	Bắt đầu
+Comment	Chú thích
+Commission	Hoa hồng
+Commit	Phạm
+Communicate	Giao tiếp
+Compare	So sánh
+Compel	Bắt buộc
+Compensate	Bù lại
+Compete	Cạnh tranh
+Compile	Biên soạn
+Complain	Phàn nàn
+Complete	Hoàn toàn
+Comply	Tuân theo
+Compose	Sáng tác
+Comprise	Gồm có
+Conceal	Giấu
+Concede	Công nhận
+Conceive	Nhận thức
+Concentrate	Tập trung
+Concern	Lo lắng
+Conclude	Kết luận
+Condemn	Lên án
+Conduct	Hạnh kiểm
+Confer	Trao
+Confess	Thú nhận
+Confine	Nhốt
+Confirm	Xác nhận
+Conform	Phù hợp
+Confront	Đối chất
+Confuse	Xáo trộn
+Connect	Liên kết
+Consider	Xem xét
+Consist	Gồm có
+Constitute	Cấu tạo
+Construct	Xây dựng
+Consult	Tư vấn
+Consume	Tiêu thụ
+Contact	Tiếp xúc
+Contain	Chứa
+Contemplate	Ngắm
+Continue	Tiếp tục
+Contract	Hợp đồng
+Contrast	Tương phản
+Contribute	Góp phần
+Control	Kiểm soát
+Convert	Đổi
+Convey	Chuyên chở
+Convict	Người bị kết án
+Convince	Thuyết phục
+Cook	Nấu ăn
+Cool	Mát mẻ
+Cope	Đương đầu
+Copy	Bản sao
+Correct	Đúng
+Correspond	Tương ứng
+Cost	Giá cả
+Count	Đếm
+Counter	Phản đối
+Couple	Cặp vợ chồng
+Cover	Che
+Crack	Vết nứt
+Crash	Tai nạn
+Crawl	Bò
+Create	Sáng tạo
+Creep	Leo
+Criticise	Chỉ trích
+Criticize	Chỉ trích
+Cross	Hội Chữ thập
+Crush	Nghiền nát
+Cry	Khóc
+Curl	Curl
+Cut	Cắt
+Damage	Tổn thất
+Dance	Nhảy
+Dare	Dám
+Date	Ngày
+Deal	Nhiều
+Debate	Tranh luận
+Decide	Quyết định
+Declare	Khai
+Decline	Từ chối
+Decorate	Trang trí
+Decrease	Giảm bớt
+Dedicate	Dâng
+Deem	Tưởng là
+Defeat	Sự thất bại
+Defend	Bảo vệ
+Define	Định nghĩa
+Delay	Chậm trễ
+Deliver	Giao hàng
+Demand	Nhu cầu
+Demonstrate	Chứng minh
+Deny	Từ chối
+Depart	Khởi hành
+Depend	Tùy theo
+Depict	Miêu tả
+Deposit	Tiền cọc
+Deprive	Tước đoạt
+Derive	Lấy được
+Descend	Xuống
+Describe	Miêu tả
+Deserve	Xứng đáng
+Design	Thiết kế
+Desire	Khao khát
+Destroy	Phá hủy
+Detect	Tìm ra
+Determine	Xác định
+Develop	Phát triển
+Devise	Phát minh
+Devote	Cống hiến
+Dictate	Bắt buộc
+Die	Chết
+Differ	Khác nhau
+Differentiate	Phân biệt
+Dig	Đào
+Diminish	Bớt
+Dip	Nhúng
+Direct	Trực tiếp
+Disagree	Không đồng ý
+Disappear	Biến mất
+Discharge	Phóng điện
+Disclose	Tiết lộ
+Discover	Khám phá
+Discuss	Bàn luận
+Dislike	Không thích
+Dismiss	Bỏ qua
+Display	Trưng bày
+Dispose	Bố trí
+Dissolve	Hòa tan
+Distinguish	Phân biệt
+Distribute	Phân phát
+Disturb	Làm phiền
+Divert	Làm chuyển hướng
+Divide	Chia
+Do	Làm
+Dominate	Thống trị
+Double	Đôi
+Doubt	Nghi ngờ
+Draft	Bản thảo
+Drag	Kéo
+Drain	Cống
+Draw	Rút ra
+Dream	Giấc mơ
+Dress	Trang phục
+Drift	Trôi giạt
+Drink	Uống
+Drive	Lái xe
+Drop	Bỏ
+Drown	Chết chìm
+Dry	Khô
+Dump	Bãi
+Earn	Kiếm được
+Ease	Làm dịu bớt
+Eat	Ăn
+Echo	Bắt chước
+Edit	Chỉnh sửa
+Educate	Giáo dục
+Effect	Hiệu ứng
+Elect	Đắc cử
+Eliminate	Bỏ
+Embark	Tham gia
+Embody	Hiện thân
+Embrace	Ôm hôn
+Emerge	Hiện ra
+Emphasise	Nhấn mạnh
+Emphasize	Nhấn mạnh
+Employ	Sử dụng
+Enable	Cho phép
+Enclose	Rào
+Encounter	Gặp gỡ
+Encourage	Khuyến khích
+End	Đầu
+Endorse	Thừa nhận
+Enforce	Thi hành
+Engage	Thuê
+Enhance	Nâng cao
+Enjoy	Thưởng thức
+Enquire	Hỏi thăm
+Ensure	Chắc chắn
+Entail	Kéo theo
+Enter	Vào
+Entertain	Giải trí
+Entitle	Cho phép
+Envisage	Dự tính
+Equip	Trang bị
+Erect	Dựng lên
+Escape	Trốn thoát
+Establish	Thiết lập
+Estimate	Ước tính
+Evaluate	Định
+Evolve	Phát triển
+Examine	Xem xét
+Exceed	Quá
+Exchange	Trao đổi
+Exclude	Loại trừ
+Excuse	Cớ
+Execute	Thi hành
+Exercise	Tập thể dục
+Exert	Gắng sức
+Exhaust	Thoát ra
+Exhibit	Tang vật
+Exist	Tồn tại
+Expand	Phát triển
+Expect	Chờ đợi
+Experience	Kinh nghiệm
+Explain	Giải thích
+Explod e	Phát nổ
+Exploit	Khai thác
+Explore	Khám phá
+Export	Xuất khẩu
+Expose	Lộ ra
+Express	Phát biểu
+Extend	Mở rộng
+Extract	Lấy
+Face	Mặt
+Facilitate	Thuận tiện
+Fade	Phai
+Fail	Thất bại
+Fall	Rơi
+Fancy	Tưởng tượng
+Favour	Ủng hộ
+Fear	Sợ
+Feature	Đặc tính
+Feed	Nuôi
+Feel	Cảm
+Fetch	Lấy
+Fight	Cuộc chiến đấu
+Figure	Nhân vật
+File	Hồ sơ
+Fill	Lấp đầy
+Finance	Tài chánh
+Find	Tìm thấy
+Fine	Tốt
+Finish	Hoàn thành
+Fire	Cháy
+Fit	Phù hợp
+Fix	Sửa chữa
+Flash	Đèn flash
+Flee	Trốn
+Fling	Quăng ra
+Float	Phao
+Flood	Lũ
+Flow	Chảy ra
+Fly	Bay
+Focus	Tiêu điểm
+Fold	Gập lại
+Follow	Theo
+Forbid	Cấm
+Force	Lực lượng
+Forget	Quên
+Forgive	Tha thứ
+Form	Hình thức
+Formulate	Xây dựng
+Found	Tìm thấy
+Free	Tự do
+Freeze	Đông lại
+Frighten	Hoảng sợ
+Frown	Cau mày
+Fulfil	Thực hiện
+Function	Hàm số
+Fund	Quỹ
+Gain	Lợi
+Gasp	Giựt mình
+Gather	Tụ họp
+Gaze	Cái nhìn đăm đăm
+Generate	Phát ra
+Get	Được
+Give	Cho
+Glance	Nhìn thoáng qua
+Go	Đi
+Going	Đi
+Govern	Quản lý
+Grab	Chụp lấy
+Grant	Grant
+Grasp	Sự hiểu biết
+Greet	Chào
+Grin	Cười toét miệng
+Grip	Va li
+Grow	Lớn lên
+Guarantee	Bảo hành
+Guard	Bảo vệ
+Guess	Phỏng đoán
+Guide	Hướng dẫn
+Halt	Tạm dừng lại
+Hand	Tay
+Handle	Xử lý
+Hang	Treo
+Happen	Xảy ra
+Hate	Ghét
+Have	Có
+Head	Đầu
+Hear	Nghe
+Heat	Nhiệt
+Help	Giúp
+Hesitate	Do dự
+Hide	Giấu
+Highlight	Điểm nổi bật
+Hire	Thuê
+Hit	Đánh
+Hold	Giữ
+Honour	Danh dự
+Hope	Hy vọng
+House	Nhà
+Hunt	Săn bắn
+Hurry	Vội
+Hurt	Đau
+Identify	Xác định
+Ignore	Bỏ qua
+Illustrate	Minh họa
+Imagine	Tưởng tượng
+Implement	Bổ sung
+Imply	Nghĩa là
+Import	Nhập khẩu
+Impose	Áp đặt
+Impress	Gây ấn tượng
+Improve	Nâng cao
+In	In
+Include	Bao gồm
+Incorporate	Kết hợp
+Increase	Tăng lên
+Incur	Chịu
+Indicate	Chỉ
+Induce	Xúi
+Influence	Ảnh hưởng
+Inform	Báo
+Inherit	Thừa kế
+Inhibit	Cản trở
+Initiate	Bắt đầu
+Injure	Tổn thương
+Insert	Chèn
+Insist	Nhấn mạnh
+Inspect	Thanh tra
+Inspire	Cảm hứng
+Install	Đặt
+Instruct	Dạy
+Integrate	Tích hợp
+Intend	Có ý định
+Interfere	Can thiệp vào
+Interpret	Giải thích
+Interrupt	Làm gián đoạn
+Intervene	Can thiệp vào
+Interview	Phỏng vấn
+Introduce	Giới thiệu
+Invent	Phát minh
+Invest	Đầu tư
+Investigate	Nghiên cứu
+Invite	Mời
+Involve	Liên quan đến
+Isolate	Cô lập
+Issue	Vấn đề
+Join	Ghép
+Judge	Thẩm phán
+Jump	Nhảy
+Justify	Biện hộ
+Keep	Giữ
+Kick	Đá
+Kill	Giết
+Kiss	Hôn
+Knit	Đan
+Knock	Đập
+Know	Biết
+Label	Nhãn
+Lack	Tình trạng thiếu
+Land	Đất
+Last	Cuối cùng
+Laugh	Cười
+Launch	Phóng
+Lay	Nằm xuống
+Lead	Chì
+Lean	Gầy
+Leap	Nhảy
+Learn	Học hỏi
+Leave	Rời khỏi
+Lend	Cho vay
+Let	Cho
+Lie	Nói dối
+Lift	Thang máy
+Light	Ánh sáng
+Like	Như
+Limit	Giới hạn
+Line	Hàng
+Link	Liên kết
+List	Danh sách
+Listen	Nghe
+Live	Sống
+Load	Tải
+Locate	Định vị trí
+Lock	Khóa
+Long	Dài
+Look	Nhìn
+Lose	Mất
+Love	Yêu
+Lower	Thấp hơn
+Maintain	Duy trì
+Make	Làm
+Manage	Quản lý
+Manipulate	Vận dụng
+Manufacture	Chế tạo
+March	Tháng ba
+Mark	Dấu
+Market	Thị trường
+Marry	Kết hôn
+Match	Trận đấu
+Matter	Chất
+Mean	Nghĩa là
+Measure	Đo
+Meet	Gặp
+Melt	Làm tan
+Mention	Đề cập đến
+Merge	Hợp nhất
+Mind	Nhớ
+Miss	Hỏng
+Mix	Pha
+Modify	Sửa đổi
+Monitor	Monitor
+Motivate	Động viên
+Mount	Núi
+Move	Hành động
+Multiply	Nhân
+Murder	Tội giết người
+Murmur	Tiếng thì thầm
+Mutter	Lầm bầm
+Name	Tên
+Narrow	Hẹp
+Need	Cần
+Neglect	Bỏ mặc
+Negotiate	Đàm phán
+Nod	Gật đầu
+Note	Chú ý
+Notice	Nhận thấy
+Obey	Vâng lời
+Object	Vật
+Observe	Quan sát
+Obtain	Được
+Occupy	Chiếm
+Occur	Xảy ra
+Offer	Phục vụ
+Omit	Quên
+Open	Mở
+Operate	Chạy
+Oppose	Đối lại
+Opt	Opt
+Order	Trật tự
+Organise	Tổ chức
+Organize	Tổ chức
+Originate	Bắt đầu
+Outline	Đại cương
+Overcome	Vượt qua
+Overlook	Bỏ qua
+Owe	Nợ
+Own	Riêng
+Pack	Gói
+Paint	Sơn
+Park	Công viên
+Part	Phần
+Participate	Tham dự
+Pass	Vượt qua
+Pause	Tạm ngừng
+Pay	Trả
+Peer	Ngang nhau
+Penetrate	Xuyên qua
+Perceive	Nhận thức
+Perform	Thực hiện
+Permit	Giấy phép
+Persist	Kiên gan
+Persuade	Khuyên
+Phone	Điện thoại
+Pick	Nhặt
+Picture	Hình ảnh
+Pin	Pin
+Place	Nơi
+Plan	Kế hoạch
+Plant	Cây
+Play	Chơi
+Plead	Biện hộ
+Please	Xin vui lòng
+Plunge	Lao mình xuống
+Point	Điểm
+Pop	Pop
+Pose	Gây ra
+Position	Vị trí
+Possess	Có
+Pour	Đổ vào
+Practise	Tập luyện
+Praise	Lời khen ngợi
+Pray	Cầu nguyện
+Precede	Đứng trước
+Predict	Dự đoán
+Prefer	Thích
+Prepare	Chuẩn bị
+Prescribe	Qui định
+Present	Hiện tại
+Preserve	Bảo tồn
+Press	Báo chí
+Presume	Đoán chừng
+Pretend	Giả vờ
+Prevail	Chiếm ưu thế
+Prevent	Phòng ngừa
+Price	Giá
+Print	In
+Proceed	Tiến hành
+Process	Quá trình
+Proclaim	Công bố
+Produce	Sản xuất
+Progress	Tiến bộ
+Project	Dự án
+Promise	Hứa
+Promote	Khuyến khích
+Prompt	Nhanh chóng
+Pronounce	Phát âm
+Propose	Đề xuất
+Protect	Bảo vệ
+Protest	Phản đối
+Prove	Chứng minh
+Provide	Cung cấp
+Provoke	Chọc giận
+Publish	Xuất bản
+Pull	Kéo
+Punish	Trừng phạt
+Purchase	Mua
+Pursue	Theo đuổi
+Push	Đẩy
+Put	Đặt
+Qualify	Đủ điều kiện
+Question	Câu hỏi
+Quote	Quote
+Race	Cuộc đua
+Rain	Mưa
+Raise	Nâng cao
+Range	Khoảng cách
+Rate	Tốc độ
+Reach	Đến
+React	Phản ứng
+Read	Đọc
+Realise	Thực hiện
+Realize	Thực hiện
+Reassure	Trấn an
+Rebuild	Xây dựng lại
+Recall	Triệu hồi
+Receive	Nhận
+Reckon	Tính
+Recognise	Công nhận
+Recognize	Công nhận
+Recommend	Giới thiệu
+Record	Kỷ lục
+Recover	Lấy lại
+Recruit	Tuyển mộ
+Reduce	Giảm
+Refer	Tham khảo
+Reflect	Suy nghĩ
+Refuse	Từ chối
+Regain	Lấy lại
+Regard	Về vấn đề
+Register	Đăng ký
+Regret	Hối tiếc
+Regulate	Chỉnh đốn
+Reinforce	Củng cố
+Reject	Từ chối
+Relate	Quan hệ
+Relax	Thư giãn
+Release	Phóng thích
+Relieve	Giảm
+Rely	Tin cậy
+Remain	Còn lại
+Remark	Chú ý
+Remember	Nhớ lại
+Remind	Nhắc lại
+Remove	Tẩy
+Render	Trả lại
+Renew	Đổi mới
+Rent	Thuê
+Repair	Sửa
+Repeat	Lặp lại
+Replace	Thay thế
+Reply	Đáp lại
+Report	Báo cáo
+Represent	Đại diện
+Reproduce	Sao lại
+Request	Yêu cầu
+Require	Yêu cầu
+Rescue	Giải thoát
+Research	Nghiên cứu
+Resemble	Giống nhau
+Reserve	Dự trữ
+Resign	Từ bỏ
+Resist	Chống cự
+Resolve	Giải quyết
+Respect	Tôn trọng
+Respond	Trả lời
+Rest	Còn lại
+Restore	Khôi phục
+Restrict	Hạn chế
+Result	Kết quả
+Resume	Sơ yếu lý lịch
+Retain	Giữ lại
+Retire	Về hưu
+Return	Trở về
+Reveal	Tiết lộ
+Reverse	Đảo ngược
+Review	Xem lại
+Revise	Xem lại
+Revive	Sống lại
+Reward	Tưởng thưởng
+Rid	Rid
+Ride	Đi chơi
+Ring	Vòng
+Rip	Đường rách
+Rise	Tăng lên
+Risk	Nguy cơ
+Roll	Cuộn
+Round	Tròn
+Rub	Chà
+Rule	Nguyên tắc
+Run	Chạy
+Rush	Vội vàng
+Sack	Bao
+Sail	Đi thuyền
+Satisfy	Làm vui lòng
+Save	Tiết kiệm
+Say	Nói
+Scan	Quét
+Scatter	Chạy tán loạn
+Schedule	Lịch trình
+Score	Số điểm
+Scratch	Vết trầy
+Scream	Hét lên
+Seal	Seal
+Search	Tìm kiếm
+Secure	Chắc chắn
+See	Thấy
+Seek	Tìm kiếm
+Seem	Hình như
+Seize	Chiếm
+Select	Lựa chọn
+Sell	Bán
+Send	Gởi
+Sense	Ý nghĩa
+Sentence	Câu văn
+Separate	Riêng biệt
+Serve	Phục vụ
+Set	Thiết
+Settle	Giải quyết
+Shake	Rung chuyển
+Shape	Shape
+Share	Phần
+Shed	Rụng
+Shift	Sự thay đổi
+Shine	Ánh sáng
+Ship	Tàu
+Shiver	Làm bể
+Shoot	Bắn
+Shop	Cửa hàng
+Shout	Kêu la
+Show	Hiển thị
+Shrug	Nhún vai
+Shut	Đóng
+Sigh	Tiếng thở dài
+Sign	Dấu
+Signal	Tín hiệu
+Sing	Hát
+Sink	Bồn rửa
+Sit	Ngồi
+Situate	Đặt vị trí
+Slam	Tiếng đập cửa
+Sleep	Ngủ
+Slide	Trượt
+Slip	Trượt
+Slow	Chậm
+Smash	Làm thất bại
+Smell	Mùi
+Smile	Nụ cười
+Smoke	Khói
+Snap	Chụp
+Solve	Giải quyết
+Sort	Loại
+Sound	Âm thanh
+Spare	Thay thế
+Speak	Nói
+Specify	Xác định
+Speed	Tốc độ
+Spell	Đánh vần
+Spend	Tiêu
+Spill	Làm đổ
+Spin	Quay
+Split	Chẻ
+Spoil	Cướp bóc
+Sponsor	Nhà tài trợ
+Spot	Đốm
+Spread	Lan tràn
+Spring	Mùa xuân
+Squeeze	Ép
+Stage	Sân khấu
+Stand	Đứng
+Stare	Nhìn chằm chằm
+Start	Bắt đầu
+State	Trạng thái
+Stay	Ở lại
+Steal	Ăn cắp
+Stem	Thân cây
+Step	Bước đi
+Stick	Gậy
+Stimulate	Kích thích
+Stir	Sự náo động
+Stop	Dừng lại
+Store	Cửa hàng
+Strain	Sự căng thẳng
+Strengthen	Tăng cường
+Stress	Nhấn mạnh
+Stretch	Căng ra
+Strike	Đình công
+Strip	Dải
+Stroke	Cú đánh
+Struggle	Cuộc tranh đấu
+Study	Nghiên cứu
+Subject	Vấn đề
+Submit	Đệ trình
+Substitute	Thay thế
+Succeed	Thành công
+Suck	Hút
+Sue	Kiện người nào
+Suffer	Bị
+Suggest	Đề nghị
+Suit	Bộ đồ
+Sum	Tổng số
+Summon	Gọi
+Supervise	Giám sát
+Supplement	Phần bổ sung
+Supply	Cung cấp
+Support	Ủng hộ
+Suppose	Giả sử
+Suppress	Đàn áp
+Surprise	Sự ngạc nhiên
+Surround	Surround
+Survive	Sống sót
+Suspect	Nghi ngờ
+Suspend	Đình chỉ
+Sustain	Chịu được
+Swallow	Nuốt
+Swear	Thề
+Sweep	Quét
+Swim	Bơi
+Swing	Lung lay
+Switch	Công tắc
+Tackle	Giải quyết
+Take	Lấy
+Talk	Nói chuyện
+Tap	Vòi nước
+Target	Mục tiêu
+Taste	Mùi vị
+Tax	Thuế
+Teach	Dạy
+Tear	Xé rách
+Telephone	Điện thoại
+Tell	Nói
+Tempt	Dụ dổ
+Tend	Có xu hướng
+Term	Kỳ hạn
+Test	Thử
+Thank	Cảm tạ
+Think	Nghĩ
+Threaten	Hăm dọa
+Throw	Ném
+Thrust	Đẩy
+Tie	Tie
+Tighten	Thắt chặt
+Time	Thời gian
+Tip	Đầu
+Top	Đỉnh
+Toss	Quăng
+Touch	Chạm
+Tour	Chuyến du lịch
+Trace	Dấu vết
+Trade	Buôn bán
+Train	Xe lửa
+Transfer	Chuyển nhượng
+Transform	Biến đổi
+Translate	Dịch
+Transmit	Chuyển giao
+Transport	Giao thông vận tải
+Trap	Bẩy
+Travel	Đi du lịch
+Treat	Đãi
+Tremble	Rung rinh
+Trust	Lòng tin
+Try	Thử
+Từ tục nên xóa	Quái
+Tuck	Xếp nếp
+Turn	Xoay
+Twist	Xoắn
+Undergo	Trải qua
+Underline	Nhấn mạnh
+Undermine	Phá hoại
+Understand	Hiểu
+Undertake	Đảm đương
+Unite	Đoàn kết
+Update	Cập nhật
+Upset	Khó chịu
+Urge	Thúc giục
+Use	Dùng
+Value	Giá trị
+Vanish	Biến mất
+Vary	Khác nhau
+View	Quang cảnh
+Visit	Lần
+Voice	Tiếng nói
+Vote	Bỏ phiếu
+Wait	Đợi
+Wake	Wake
+Walk	Đi bộ
+Wander	Đi lang thang
+Want	Muốn
+Warm	Nóng
+Warn	Cảnh báo
+Wash	Rửa
+Waste	Chất thải
+Watch	Xem
+Wave	Sóng
+Weaken	Suy yếu
+Wear	Dùng
+Weigh	Cân
+Welcome	Hoan nghênh
+Whisper	Thì thầm
+Widen	Mở rộng
+Win	Thắng lợi
+Wind	Gió
+Wipe	Lau
+Wish	Muốn
+Withdraw	Rút
+Witness	Làm chứng
+Wonder	Ngạc nhiên
+Work	Làm việc
+Worry	Lo
+Wrap	Bọc
+Write	Viết
+Yield	Năng suất
+different	khác nhau
+used	được sử dụng
+important	quan trọng
+every	mỗi
+large	lớn
+available	có sẵn
+popular	phổ biến
+able	thể
+basic	cơ bản
+known	được biết đến
+various	khác nhau
+difficult	khó khăn
+several	nhiều
+united	thống nhất
+historical	lịch sử
+hot	nóng
+useful	hữu ích
+mental	tinh thần
+scared	sợ hãi
+additional	thêm
+emotional	cảm xúc
+old	cũ
+political	chính trị
+similar	tương tự
+healthy	khỏe mạnh
+financial	tài chính
+medical	y tế
+traditional	truyền thống
+federal	liên bang
+entire	toàn bộ
+strong	mạnh mẽ
+actual	thực tế
+significant	đáng kể
+successful	thành công
+electrical	điện
+expensive	đắt
+pregnant	mang thai
+intelligent	thông minh
+interesting	thú vị
+poor	người nghèo
+happy	hạnh phúc
+responsible	chịu trách nhiệm
+cute	dễ thương
+helpful	hữu ích
+recent	gần đây
+willing	sẵn sàng
+nice	đẹp
+wonderful	tuyệt vời
+impossible	không thể
+serious	nghiêm trọng
+huge	lớn
+rare	hiếm
+technical	kỹ thuật
+typical	điển hình
+competitive	cạnh tranh
+critical	quan trọng
+electronic	điện tử
+immediate	ngay lập tức
+whose	có
+aware	nhận thức
+educational	giáo dục
+environmental	môi trường
+global	toàn cầu
+legal	pháp lý
+relevant	có liên quan
+accurate	chính xác
+capable	có khả năng
+dangerous	nguy hiểm
+dramatic	ấn tượng
+efficient	hiệu quả
+powerful	mạnh mẽ
+foreign	nước ngoài
+hungry	đói
+practical	thực tế
+psychological	tâm lý
+severe	nghiêm trọng
+suitable	phù hợp
+numerous	nhiều
+sufficient	đủ
+unusual	bất thường
+consistent	phù hợp
+cultural	văn hóa
+existing	hiện
+famous	nổi tiếng
+pure	tinh khiết
+afraid	sợ
+obvious	rõ ràng
+careful	cẩn thận
+latter	thứ hai
+obviously	rõ ràng
+unhappy	không hài lòng
+acceptable	chấp nhận được
+aggressive	tích cực
+distinct	biệt
+eastern	đông
+logical	hợp lý
+reasonable	hợp lý
+strict	nghiêm ngặt
+successfully	thành công
+administrative	hành chính
+automatic	tự động
+civil	dân sự
+former	cựu
+massive	lớn
+southern	Nam
+unfair	không công bằng
+visible	có thể nhìn thấy
+alive	sống
+angry	tức giận
+desperate	tuyệt vọng
+exciting	thú vị
+friendly	thân thiện
+lucky	may mắn
+realistic	thực tế
+sorry	xin lỗi
+ugly	xấu xí
+unlikely	không
+anxious	lo lắng
+comprehensive	toàn diện
+curious	tò mò
+impressive	ấn tượng
+informal	chính thức
+inner	bên trong
+pleasant	vừa ý
+sexual	tình dục
+sudden	đột ngột
+terrible	khủng khiếp
+unable	không thể
+weak	yếu
+wooden	gỗ
+asleep	ngủ
+confident	tự tin
+conscious	có ý thức
+decent	phong nha
+embarrassed	xấu hổ
+guilty	tội
+lonely	cô đơn
+mad	điên
+nervous	thần kinh
+odd	lẻ
+remarkable	đáng chú ý
+substantial	đáng kể
+suspicious	đáng ngờ
+tall	cao
+tiny	nhỏ
+more	hơn
+some	một số
+one	một
+all	tất cả
+many	nhiều
+most	nhất
+other	khác
+such	như vậy
+even	thậm chí
+new	mới
+just	chỉ
+good	tốt
+any	bất kỳ
+each	mỗi
+much	nhiều
+own	riêng
+great	tuyệt vời
+another	khác
+same	cùng
+few	số
+free	miễn phí
+right	đúng
+still	vẫn
+best	tốt nhất
+public	công cộng
+human	con người
+both	cả hai
+local	địa phương
+sure	chắc chắn
+better	tốt hơn
+general	chung
+specific	cụ thể
+enough	đủ
+long	dài
+small	nhỏ
+less	ít
+high	cao
+certain	nhất định
+little	ít
+common	phổ biến
+next	tiếp theo
+simple	đơn giản
+hard	cứng
+past	qua
+big	lớn
+possible	có thể
+particular	đặc biệt
+real	thực
+major	chính
+personal	cá nhân
+current	hiện tại
+left	còn lại
+national	quốc gia
+least	ít nhất
+natural	tự nhiên
+physical	vật lý
+short	ngắn
+last	cuối cùng
+single	đơn
+individual	cá nhân
+main	chính
+potential	tiềm năng
+professional	chuyên nghiệp
+international	quốc tế
+lower	thấp hơn
+open	mở
+according	theo
+alternative	thay thế
+special	đặc biệt
+working	làm việc
+TRUE	TRUE
+whole	toàn bộ
+clear	rõ ràng
+dry	khô
+easy	dễ dàng
+cold	lạnh
+commercial	thương mại
+full	đầy đủ
+low	thấp
+primary	chính
+worth	giá trị
+necessary	cần thiết
+positive	tích cực
+present	hiện nay
+close	gần
+creative	sáng tạo
+green	màu xanh lá cây
+late	cuối
+fit	phù hợp với
+glad	vui
+proper	thích hợp
+complex	phức tạp
+content	nội dung
+due	do
+effective	hiệu quả
+middle	trung
+regular	thường xuyên
+fast	nhanh chóng
+independent	độc lập
+original	ban đầu
+wide	rộng
+beautiful	đẹp
+complete	hoàn thành
+active	hoạt động
+negative	tiêu cực
+safe	an toàn
+visual	hình ảnh
+wrong	sai
+ago	trước
+quick	nhanh chóng
+ready	sẵn sàng
+straight	thẳng
+white	trắng
+direct	trực tiếp
+excellent	tuyệt vời
+extra	thêm
+junior	cơ sở
+pretty	khá
+unique	độc đáo
+classic	cổ điển
+final	thức
+overall	tổng thể
+private	tin
+separate	riêng
+western	tây
+alone	một mình
+familiar	quen thuộc
+official	chính thức
+perfect	hoàn hảo
+bright	sáng
+broad	rộng
+comfortable	thoải mái
+flat	phẳng
+rich	giàu
+warm	ấm áp
+young	trẻ
+heavy	nặng
+valuable	có giá trị
+correct	chính xác
+leading	hàng đầu
+slow	chậm
+clean	sạch
+fresh	tươi
+normal	bình thường
+secret	bí mật
+tough	khó khăn
+brown	nâu
+cheap	giá rẻ
+deep	sâu
+objective	mục tiêu
+secure	đảm bảo
+thin	mỏng
+chemical	hóa học
+cool	mát mẻ
+extreme	cực
+exact	chính xác
+fair	công bằng
+fine	tốt
+formal	chính thức
+opposite	ngược lại
+remote	từ xa
+total	tổng số
+vast	lớn
+lost	bị mất
+smooth	mịn
+dark	tối
+double	đôi
+equal	bằng
+firm	công ty
+frequent	thường xuyên
+internal	nội bộ
+sensitive	nhạy cảm
+constant	liên tục
+minor	trẻ vị thành niên
+previous	trước
+raw	liệu
+soft	mềm
+solid	rắn
+weird	lạ
+amazing	tuyệt vời
+annual	hàng năm
+busy	bận rộn
+dead	chết
+FALSE	FALSE
+round	vòng
+sharp	sắc nét
+thick	dày
+wise	khôn ngoan
+equivalent	tương đương
+initial	ban đầu
+narrow	hẹp
+nearby	lân cận
+proud	tự hào
+spiritual	tinh thần
+wild	hoang dã
+adult	người lớn
+apart	ngoài
+brief	ngắn gọn
+crazy	điên
+prior	trước
+rough	thô
+sad	buồn
+sick	bệnh
+strange	lạ
+external	bên ngoài
+illegal	bất hợp pháp
+loud	lớn
+mobile	điện thoại di động
+nasty	khó chịu
+ordinary	bình thường
+royal	hoàng gia
+senior	cao cấp
+super	siêu
+tight	chặt chẽ
+upper	trên
+yellow	vàng
+dependent	phụ thuộc
+funny	vui
+gross	tổng
+ill	bệnh
+spare	phụ tùng
+sweet	ngọt ngào
+upstairs	trên lầu
+usual	thông thường
+brave	dũng cảm
+calm	bình tĩnh
+dirty	bẩn
+downtown	trung tâm thành phố
+grand	lớn
+honest	trung thực
+loose	lỏng lẻo
+male	nam
+quiet	yên tĩnh
+brilliant	rực rỡ
+dear	thân yêu
+drunk	say rượu
+empty	rỗng
+female	nữ
+inevitable	không thể tránh khỏi
+neat	gọn gàng
+ok	ok
+representative	đại diện
+silly	ngớ ngẩn
+slight	nhẹ
+smart	thông minh
+stupid	ngu ngốc
+temporary	tạm thời
+weekly	hàng tuần
+that	mà
+this	này
+what	những gì
+which	mà
+time	thời gian
+these	các
+work	công việc
+no	không có
+only	chỉ
+first	đầu tiên
+over	hơn
+business	kinh doanh
+his	mình
+game	trò chơi
+think	nghĩ
+after	sau
+life	cuộc sống
+day	ngày
+home	nhà
+economy	nền kinh tế
+away	đi
+either	hoặc
+fat	chất béo
+key	chính
+training	đào tạo
+top	đầu
+level	mức
+far	đến nay
+fun	vui vẻ
+house	nhà
+kind	loại
+future	trong tương lai
+action	hành động
+live	sống
+period	thời gian
+subject	Tiêu đề
+mean	có nghĩa là
+stock	chứng khoán
+chance	cơ hội
+beginning	bắt đầu
+upset	khó chịu
+chicken	gà
+head	đầu
+material	tài liệu
+salt	muối
+car	xe
+appropriate	thích hợp
+inside	bên trong
+outside	bên ngoài
+standard	tiêu chuẩn
+medium	trung
+choice	lựa chọn
+north	phía bắc
+square	vuông
+born	Ngày Sinh:
+capital	vốn
+shot	bắn
+front	trước
+living	sống
+plastic	nhựa
+express	thể hiện
+mood	tâm trạng
+feeling	cảm giác
+otherwise	khác
+plus	cộng với
+savings	tiết kiệm
+animal	động vật
+budget	ngân sách
+minute	phút
+character	nhân vật
+maximum	tối đa
+novel	tiểu thuyết
+plenty	nhiều
+select	chọn
+background	nền
+forward	về phía trước
+glass	kính
+joint	doanh
+master	chủ
+red	màu đỏ
+vegetable	rau
+ideal	lý tưởng
+kitchen	nhà bếp
+mother	mẹ
+party	bên
+relative	tương đối
+signal	tín hiệu
+street	đường phố
+connect	kết nối
+minimum	tối thiểu
+sea	biển
+south	nam
+status	tình trạng
+daughter	con gái
+hour	giờ
+trick	lừa
+afternoon	buổi chiều
+gold	vàng
+mission	Nhiệm vụ
+agent	đại lý
+corner	góc
+east	đông
+neither	không
+parking	bãi đậu xe
+routine	thường xuyên
+swimming	bơi
+winter	mùa đông
+airline	hãng hàng không
+designer	nhà thiết kế
+dress	váy
+emergency	trường hợp khẩn cấp
+evening	buổi tối
+extension	mở rộng
+holiday	kỳ nghỉ
+horror	kinh dị
+mountain	núi
+patient	bệnh nhân
+proof	bằng chứng
+west	tây
+wine	rượu vang
+expert	chuyên gia
+native	bản địa
+opening	mở
+silver	bạc
+waste	chất thải
+plane	máy bay
+leather	da
+purple	màu tím
+specialist	chuyên gia
+bitter	cay đắng
+incident	sự cố
+motor	động cơ
+pretend	giả vờ
+prize	giải thưởng
+resident	cư dân
+Be	là
+have	có
+DO	làm
+say	nói
+get	được
+make	làm
+go	đi
+see	thấy
+know	biết
+take	lấy
+think	nghĩ
+come	đến
+give	cho
+look	nhìn
+use	dùng
+find	tìm thấy
+want	muốn
+Tell	nói
+put	đặt
+mean	nghĩa là
+become	trở thành
+leave	rời khỏi
+work	làm việc
+need	cần
+feel	cảm
+seem	hình như
+ask	hỏi
+show	hiển thị
+try	thử
+Call	gọi
+keep	giữ
+provide	cung cấp
+hold	giữ
+turn	xoay
+follow	theo
+Begin	bắt đầu
+bring	đem lại
+like	như
+going	đi
+help	giúp
+start	bắt đầu
+run	chạy
+write	viết
+Set	thiết
+move	hành động
+play	chơi
+pay	trả
+hear	nghe
+include	bao gồm
+believe	tin
+allow	cho phép
+meet	gặp
+lead	chì
+live	sống
+stand	đứng
+happen	xảy ra
+carry	mang
+talk	nói chuyện
+appear	xuất hiện
+produce	sản xuất
+sit	ngồi
+offer	phục vụ
+consider	xem xét
+expect	chờ đợi
+suggest	đề nghị
+LET	CHO
+read	đọc
+require	yêu cầu
+continue	tiếp tục
+lose	mất
+ADD	thêm
+change	thay đổi
+Fall	rơi
+remain	còn lại
+remember	nhớ lại
+buy	mua
+speak	nói
+stop	dừng lại
+send	gởi
+receive	nhận
+decide	quyết định
+win	thắng lợi
+understand	hiểu
+describe	miêu tả
+develop	phát triển
+agree	đồng ý
+open	mở
+reach	đến
+build	xây dựng
+involve	liên quan đến
+spend	tiêu
+return	trở về
+draw	rút ra
+die	chết
+Hope	hy vọng
+create	sáng tạo
+walk	đi bộ
+sell	bán
+wait	đợi
+cause	nguyên nhân
+pass	vượt qua
+Lie	nói dối
+accept	chấp nhận
+watch	xem
+raise	nâng cao
+Base	căn cứ
+apply	ứng dụng
+break	nghỉ
+explain	giải thích
+learn	học hỏi
+increase	tăng lên
+cover	che
+grow	lớn lên
+claim	yêu cầu
+report	báo cáo
+support	ủng hộ
+cut	cắt
+form	hình thức
+stay	ở lại
+contain	chứa
+reduce	giảm
+establish	thiết lập
+join	ghép
+wish	muốn
+achieve	hoàn thành
+seek	tìm kiếm
+choose	chọn
+deal	nhiều
+face	mặt
+fail	thất bại
+serve	phục vụ
+end	đầu
+kill	giết
+occur	xảy ra
+drive	lái xe
+represent	đại diện
+rise	tăng lên
+discuss	bàn luận
+love	yêu
+pick	nhặt
+place	nơi
+argue	tranh luận
+prove	chứng minh
+wear	dùng
+catch	catch
+enjoy	thưởng thức
+eat	ăn
+introduce	giới thiệu
+enter	vào
+present	hiện tại
+arrive	đến
+ensure	chắc chắn
+point	điểm
+plan	kế hoạch
+pull	kéo
+refer	tham khảo
+act	hành động
+relate	quan hệ
+affect	có ảnh hưởng đến
+close	gần
+identify	xác định
+manage	quản lý
+thank	cảm tạ
+compare	so sánh
+announce	thông báo
+obtain	được
+note	chú ý
+forget	quên
+indicate	chỉ
+wonder	ngạc nhiên
+maintain	duy trì
+publish	xuất bản
+suffer	bị
+avoid	tránh
+express	phát biểu
+suppose	giả sử
+finish	hoàn thành
+determine	xác định
+design	thiết kế
+listen	nghe
+save	tiết kiệm
+tend	có xu hướng
+treat	đãi
+control	kiểm soát
+share	phần
+remove	tẩy
+throw	ném
+visit	lần
+exist	tồn tại
+encourage	khuyến khích
+force	lực lượng
+reflect	suy nghĩ
+admit	thừa nhận
+assume	đảm đương
+smile	nụ cười
+prepare	chuẩn bị
+replace	thay thế
+fill	lấp đầy
+improve	nâng cao
+mention	đề cập đến
+fight	cuộc chiến đấu
+intend	có ý định
+Miss	hỏng
+discover	khám phá
+drop	bỏ
+hit	đánh
+push	đẩy
+prevent	phòng ngừa
+refuse	từ chối
+regard	Về vấn đề
+lay	nằm xuống
+reveal	tiết lộ
+Teach	dạy
+answer	câu trả lời
+operate	chạy
+State	trạng thái
+depend	tùy theo
+enable	cho phép
+record	kỷ lục
+check	kiểm tra
+complete	hoàn toàn
+cost	giá cả
+sound	âm thanh
+laugh	cười
+realise	thực hiện
+extend	mở rộng
+arise	nổi lên
+notice	nhận thấy
+define	định nghĩa
+examine	xem xét
+fit	phù hợp
+study	nghiên cứu
+bear	chịu
+hang	treo
+recognise	công nhận
+shake	rung chuyển
+sign	dấu
+attend	đi học
+fly	bay
+gain	lợi
+perform	thực hiện
+result	kết quả
+travel	đi du lịch
+adopt	nhận nuôi
+confirm	xác nhận
+protect	bảo vệ
+demand	nhu cầu
+stare	nhìn chằm chằm
+imagine	tưởng tượng
+attempt	thử
+beat	đánh đập
+Born	sinh
+associate	liên kết
+care	chăm sóc
+marry	kết hôn
+collect	sưu tầm
+voice	tiếng nói
+employ	sử dụng
+issue	vấn đề
+release	phóng thích
+emerge	hiện ra
+mind	nhớ
+aim	mục tiêu
+deny	từ chối
+Mark	dấu
+shoot	bắn
+appoint	bổ nhiệm
+Order	trật tự
+supply	cung cấp
+drink	uống
+observe	quan sát
+reply	đáp lại
+ignore	bỏ qua
+link	liên kết
+propose	đề xuất
+ring	vòng
+settle	giải quyết
+strike	đình công
+press	báo chí
+respond	trả lời
+arrange	sắp xếp
+survive	sống sót
+concentrate	tập trung
+lift	thang máy
+approach	phương pháp tiếp cận
+Cross	Hội Chữ thập
+test	thử
+charge	phí
+experience	kinh nghiệm
+touch	chạm
+acquire	mua
+commit	phạm
+demonstrate	chứng minh
+Grant	Grant
+prefer	thích
+repeat	lặp lại
+sleep	ngủ
+threaten	hăm dọa
+feed	nuôi
+insist	nhấn mạnh
+launch	phóng
+limit	giới hạn
+promote	khuyến khích
+deliver	giao hàng
+measure	đo
+own	riêng
+retain	giữ lại
+assess	đánh giá
+attract	thu hút
+belong	thuộc về
+consist	gồm có
+contribute	góp phần
+hide	giấu
+promise	hứa
+reject	từ chối
+cry	khóc
+impose	áp đặt
+invite	mời
+sing	hát
+vary	khác nhau
+warn	cảnh báo
+address	địa chỉ
+declare	khai
+destroy	phá hủy
+worry	lo
+divide	chia
+head	đầu
+name	tên
+stick	gậy
+nod	gật đầu
+recognize	công nhận
+train	xe lửa
+attack	tấn công
+clear	trong sáng
+combine	phối hợp
+handle	xử lý
+influence	ảnh hưởng
+realize	thực hiện
+recommend	giới thiệu
+shout	kêu la
+spread	lan tràn
+undertake	đảm đương
+account	trương mục
+select	lựa chọn
+climb	leo
+contact	tiếp xúc
+recall	triệu hồi
+secure	chắc chắn
+step	bước đi
+transfer	chuyển nhượng
+welcome	hoan nghênh
+conclude	kết luận
+disappear	biến mất
+display	trưng bày
+dress	trang phục
+illustrate	minh họa
+imply	nghĩa là
+organise	tổ chức
+direct	trực tiếp
+escape	trốn thoát
+generate	phát ra
+investigate	nghiên cứu
+remind	nhắc lại
+advise	khuyến cáo
+afford	đủ khả năng
+earn	kiếm được
+hand	tay
+inform	báo
+rely	tin cậy
+succeed	thành công
+approve	phê duyệt
+burn	đốt cháy
+fear	sợ
+vote	bỏ phiếu
+conduct	hạnh kiểm
+cope	đương đầu
+derive	lấy được
+elect	đắc cử
+gather	tụ họp
+jump	nhảy
+last	cuối cùng
+match	trận đấu
+matter	chất
+persuade	khuyên
+ride	đi chơi
+shut	đóng
+blow	thổi
+estimate	ước tính
+recover	lấy lại
+score	số điểm
+slip	trượt
+count	đếm
+hate	ghét
+attach	đính kèm
+exercise	tập thể dục
+house	nhà
+lean	gầy
+roll	cuộn
+wash	rửa
+accompany	hộ tống
+accuse	tố cáo
+bind	buộc
+explore	khám phá
+judge	thẩm phán
+rest	còn lại
+steal	ăn cắp
+comment	chú thích
+exclude	loại trừ
+focus	tiêu điểm
+hurt	đau
+stretch	căng ra
+withdraw	rút
+back	trở lại
+fix	sửa chữa
+justify	biện hộ
+knock	đập
+pursue	theo đuổi
+switch	công tắc
+appreciate	đánh giá
+benefit	lợi ích
+lack	tình trạng thiếu
+list	danh sách
+occupy	chiếm
+permit	giấy phép
+surround	surround
+abandon	bỏ
+blame	khiển trách
+complain	phàn nàn
+connect	liên kết
+construct	xây dựng
+dominate	thống trị
+engage	thuê
+paint	sơn
+quote	quote
+view	quang cảnh
+acknowledge	công nhận
+dismiss	bỏ qua
+incorporate	kết hợp
+interpret	giải thích
+proceed	tiến hành
+search	tìm kiếm
+separate	riêng biệt
+stress	nhấn mạnh
+alter	thay đổi
+analyse	phân tích
+arrest	bắt giữ
+bother	làm phiền
+defend	bảo vệ
+expand	phát triển
+implement	bổ sung
+possess	có
+review	xem lại
+suit	bộ đồ
+tie	tie
+assist	hỗ trợ
+calculate	tính toán
+glance	nhìn thoáng qua
+mix	pha
+question	câu hỏi
+resolve	giải quyết
+rule	nguyên tắc
+suspect	nghi ngờ
+Wake	Wake
+appeal	kháng cáo
+challenge	thách
+clean	sạch
+damage	tổn thất
+guess	phỏng đoán
+reckon	tính
+restore	khôi phục
+restrict	hạn chế
+specify	xác định
+constitute	cấu tạo
+convert	đổi
+distinguish	phân biệt
+submit	đệ trình
+trust	lòng tin
+urge	thúc giục
+feature	đặc tính
+Land	đất
+locate	định vị trí
+predict	dự đoán
+preserve	bảo tồn
+solve	giải quyết
+sort	loại
+struggle	cuộc tranh đấu
+cast	đúc
+Cook	nấu ăn
+dance	nhảy
+invest	đầu tư
+lock	khóa
+owe	nợ
+pour	đổ vào
+shift	sự thay đổi
+kick	đá
+kiss	hôn
+Light	ánh sáng
+purchase	mua
+race	cuộc đua
+retire	về hưu
+Bend	uốn cong
+breathe	thở
+celebrate	tán dương
+date	ngày
+fire	cháy
+Monitor	Monitor
+print	in
+register	đăng ký
+resist	chống cự
+behave	hành xử
+comprise	gồm có
+decline	từ chối
+detect	tìm ra
+finance	tài chánh
+organize	tổ chức
+overcome	vượt qua
+range	khoảng cách
+swing	lung lay
+differ	khác nhau
+drag	kéo
+guarantee	bảo hành
+oppose	đối lại
+pack	gói
+pause	tạm ngừng
+relax	thư giãn
+resign	từ bỏ
+Rush	vội vàng
+store	cửa hàng
+waste	chất thải
+compete	cạnh tranh
+expose	lộ ra
+found	tìm thấy
+install	đặt
+mount	núi
+negotiate	đàm phán
+sink	bồn rửa
+Split	chẻ
+whisper	thì thầm
+assure	cam đoan
+award	phần thưởng
+borrow	vay
+bury	chôn
+capture	bắt
+deserve	xứng đáng
+distribute	phân phát
+doubt	nghi ngờ
+enhance	nâng cao
+phone	điện thoại
+sweep	quét
+tackle	giải quyết
+advance	trước
+cease	ngừng
+concern	lo lắng
+emphasise	nhấn mạnh
+exceed	quá
+qualify	đủ điều kiện
+slide	trượt
+strengthen	tăng cường
+transform	biến đổi
+favour	ủng hộ
+grab	chụp lấy
+lend	cho vay
+participate	tham dự
+perceive	nhận thức
+pose	gây ra
+practise	tập luyện
+satisfy	làm vui lòng
+scream	hét lên
+smoke	khói
+sustain	chịu được
+tear	xé rách
+adapt	phỏng theo
+adjust	điều chỉnh
+BAN	BAN
+consult	tư vấn
+dig	đào
+dry	khô
+highlight	Điểm nổi bật
+outline	đại cương
+reinforce	củng cố
+shrug	nhún vai
+snap	chụp
+absorb	hấp thụ
+amount	lượng
+block	khối
+confine	nhốt
+delay	chậm trễ
+encounter	gặp gỡ
+entitle	cho phép
+plant	cây
+pretend	giả vờ
+request	yêu cầu
+rid	rid
+sail	đi thuyền
+trace	dấu vết
+trade	buôn bán
+Wave	sóng
+cite	dẫn chứng
+dream	giấc mơ
+flow	chảy ra
+fulfil	thực hiện
+lower	thấp hơn
+process	quá trình
+react	phản ứng
+seize	chiếm
+allocate	chỉ định
+burst	nổ
+communicate	giao tiếp
+defeat	sự thất bại
+double	đôi
+exploit	khai thác
+fund	quỹ
+govern	quản lý
+hurry	vội
+injure	tổn thương
+pray	cầu nguyện
+protest	phản đối
+sigh	tiếng thở dài
+smell	mùi
+stir	sự náo động
+swim	bơi
+undergo	trải qua
+wander	đi lang thang
+anticipate	đi trước
+collapse	sập
+compose	sáng tác
+confront	đối chất
+ease	làm dịu bớt
+eliminate	bỏ
+evaluate	định
+grin	cười toét miệng
+interview	phỏng vấn
+remark	chú ý
+suspend	đình chỉ
+weigh	cân
+wipe	lau
+wrap	bọc
+attribute	đặc tính
+Balance	Balance
+bet	đánh cuộc
+bound	giới hạn
+cancel	hủy bỏ
+condemn	lên án
+convince	thuyết phục
+correspond	tương ứng
+dare	dám
+devise	phát minh
+free	tự do
+gaze	cái nhìn đăm đăm
+guide	hướng dẫn
+inspire	cảm hứng
+modify	sửa đổi
+murder	tội giết người
+prompt	nhanh chóng
+reverse	đảo ngược
+rub	chà
+slow	chậm
+spot	đốm
+swear	thề
+telephone	điện thoại
+wind	gió
+admire	ngưỡng mộ
+bite	cắn
+crash	tai nạn
+disturb	làm phiền
+greet	chào
+hesitate	do dự
+induce	xúi
+integrate	tích hợp
+knit	đan
+line	hàng
+load	tải
+murmur	tiếng thì thầm
+render	trả lại
+shine	ánh sáng
+swallow	nuốt
+tap	vòi nước
+translate	dịch
+yield	năng suất
+accommodate	chứa
+age	tuổi
+assert	xác nhận
+await	chờ
+Book	sách
+brush	bàn chải
+Chase	đuổi theo
+comply	tuân theo
+copy	bản sao
+criticise	chỉ trích
+devote	cống hiến
+evolve	phát triển
+flee	trốn
+forgive	tha thứ
+initiate	bắt đầu
+interrupt	làm gián đoạn
+leap	nhảy
+mutter	lầm bầm
+overlook	bỏ qua
+risk	nguy cơ
+SHAPE	SHAPE
+spell	đánh vần
+squeeze	ép
+trap	bẩy
+undermine	phá hoại
+witness	làm chứng
+beg	ăn mày
+drift	trôi giạt
+Echo	bắt chước
+emphasize	nhấn mạnh
+enforce	thi hành
+exchange	trao đổi
+fade	phai
+float	phao
+freeze	đông lại
+hire	thuê
+IN	IN
+object	vật
+pop	pop
+provoke	chọc giận
+recruit	tuyển mộ
+research	nghiên cứu
+sense	ý nghĩa
+situate	đặt vị trí
+stimulate	kích thích
+abolish	bỏ
+administer	thi hành
+allege	quả quyết
+command	chỉ huy
+consume	tiêu thụ
+convey	chuyên chở
+correct	đúng
+educate	giáo dục
+equip	trang bị
+execute	thi hành
+fetch	lấy
+frown	cau mày
+invent	phát minh
+MArch	tháng ba
+Park	công viên
+progress	tiến bộ
+reserve	dự trữ
+respect	tôn trọng
+twist	xoắn
+unite	đoàn kết
+value	giá trị
+assign	chỉ định
+cater	cung cấp
+concede	công nhận
+conceive	nhận thức
+disclose	tiết lộ
+envisage	dự tính
+exhibit	tang vật
+export	xuất khẩu
+extract	lấy
+fancy	tưởng tượng
+inherit	thừa kế
+insert	chèn
+instruct	dạy
+interfere	can thiệp vào
+isolate	cô lập
+opt	opt
+peer	ngang nhau
+persist	kiên gan
+plead	biện hộ
+Price	giá
+regret	hối tiếc
+regulate	chỉnh đốn
+repair	sửa
+resemble	giống nhau
+resume	sơ yếu lý lịch
+speed	tốc độ
+spin	quay
+spring	mùa xuân
+update	cập nhật
+advocate	người bênh vực
+assemble	tập hợp
+boost	tăng
+breed	giống
+cling	bám vào
+commission	hoa hồng
+conceal	giấu
+contemplate	ngắm
+criticize	chỉ trích
+decorate	trang trí
+descend	xuống
+drain	cống
+edit	chỉnh sửa
+embrace	ôm hôn
+excuse	cớ
+explod e	phát nổ
+facilitate	thuận tiện
+flash	đèn flash
+fold	gập lại
+function	hàm số
+grasp	sự hiểu biết
+incur	chịu
+intervene	can thiệp vào
+label	nhãn
+please	xin vui lòng
+rescue	giải thoát
+strip	dải
+tip	đầu
+upset	khó chịu
+advertise	quảng cáo
+aid	viện trợ
+Centre	Trung tâm
+classify	phân loại
+coincide	phù hợp
+confess	thú nhận
+contract	hợp đồng
+crack	vết nứt
+creep	leo
+decrease	giảm bớt
+deem	tưởng là
+dispose	bố trí
+dissolve	hòa tan
+dump	bãi
+endorse	thừa nhận
+formulate	Xây dựng
+import	nhập khẩu
+impress	gây ấn tượng
+market	thị trường
+reproduce	sao lại
+scatter	chạy tán loạn
+schedule	lịch trình
+ship	tàu
+shop	cửa hàng
+spare	thay thế
+sponsor	nhà tài trợ
+stage	sân khấu
+suck	hút
+Sue	kiện người nào
+tempt	dụ dổ
+vanish	biến mất
+access	quyền
+commence	bắt đầu
+contrast	tương phản
+depict	miêu tả
+discharge	phóng điện
+draft	bản thảo
+enclose	rào
+enquire	hỏi thăm
+erect	dựng lên
+file	hồ sơ
+halt	tạm dừng lại
+Hunt	săn bắn
+inspect	thanh tra
+omit	quên
+originate	bắt đầu
+praise	lời khen ngợi
+precede	đứng trước
+relieve	giảm
+reward	tưởng thưởng
+round	tròn
+SEAL	SEAL
+signal	tín hiệu
+smash	làm thất bại
+spoil	cướp bóc
+subject	vấn đề
+target	mục tiêu
+taste	mùi vị
+tighten	thắt chặt
+top	đỉnh
+tremble	rung rinh
+tuck	xếp nếp
+warm	nóng
+activate	hoạt động
+amend	tu chính
+arouse	đánh thức
+bang	tiếng nổ
+bid	thầu
+bow	cây cung
+campaign	chiến dịch
+characterise	đặc trưng
+circulate	lưu hành
+clarify	lọc
+compensate	bù lại
+compile	biên soạn
+cool	mát mẻ
+couple	cặp vợ chồng
+depart	khởi hành
+deprive	tước đoạt
+desire	khao khát
+diminish	bớt
+drown	chết chìm
+embark	tham gia
+entail	kéo theo
+entertain	giải trí
+figure	nhân vật
+fling	quăng ra
+guard	bảo vệ
+manufacture	chế tạo
+melt	làm tan
+neglect	bỏ mặc
+plunge	lao mình xuống
+project	dự án
+rain	mưa
+reassure	trấn an
+rent	thuê
+revive	sống lại
+sentence	câu văn
+shed	rụng
+slam	tiếng đập cửa
+spill	làm đổ
+stem	thân cây
+sum	tổng số
+summon	gọi
+supplement	phần bổ sung
+suppress	đàn áp
+surprise	sự ngạc nhiên
+tax	thuế
+thrust	đẩy
+tour	chuyến du lịch
+transmit	chuyển giao
+transport	giao thông vận tải
+weaken	suy yếu
+widen	mở rộng
+bounce	tung lên
+calm	yên lặng
+characterize	đặc trưng
+chat	trò chuyện
+clutch	chân
+confer	trao
+conform	phù hợp
+confuse	xáo trộn
+convict	người bị kết án
+counter	phản đối
+debate	tranh luận
+dedicate	dâng
+dictate	bắt buộc
+disagree	không đồng ý
+effect	hiệu ứng
+flood	lũ
+forbid	cấm
+grip	va li
+heat	nhiệt
+long	dài
+manipulate	vận dụng
+merge	hợp nhất
+part	phần
+PIN	PIN
+position	vị trí
+prescribe	qui định
+proclaim	công bố
+punish	trừng phạt
+rebuild	xây dựng lại
+regain	lấy lại
+sack	bao
+strain	sự căng thẳng
+stroke	cú đánh
+substitute	thay thế
+supervise	giám sát
+term	kỳ hạn
+time	thời gian
+toss	quăng
+underline	nhấn mạnh
+abuse	lạm dụng
+accumulate	tích trữ
+alert	báo động
+arm	cánh tay
+attain	đạt
+boast	khoe khoan
+boil	nhọt
+carve	khắc
+cheer	vui lên
+colour	màu
+compel	bắt buộc
+crawl	bò
+crush	nghiền nát
+Curl	curl
+deposit	tiền cọc
+differentiate	phân biệt
+dip	nhúng
+dislike	không thích
+divert	làm chuyển hướng
+embody	hiện thân
+exert	gắng sức
+exhaust	thoát ra
+fine	tốt
+frighten	hoảng sợ
+từ tục nên xóa	quái
+gasp	giựt mình
+honour	danh dự
+inhibit	cản trở
+motivate	động viên
+multiply	nhân
+narrow	hẹp
+obey	vâng lời
+penetrate	xuyên qua
+picture	hình ảnh
+presume	đoán chừng
+prevail	chiếm ưu thế
+pronounce	phát âm
+rate	tốc độ
+renew	đổi mới
+revise	xem lại
+rip	đường rách
+scan	quét
+scratch	vết trầy
+shiver	làm bể
+
+
