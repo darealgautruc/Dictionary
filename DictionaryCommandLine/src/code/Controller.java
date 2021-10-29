@@ -1,10 +1,12 @@
 package code;
 
+import java.awt.event.ActionEvent;
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 import com.sun.speech.freetts.Voice;
@@ -40,6 +42,7 @@ public class Controller implements Initializable {
 	DictionaryManagement DM = new DictionaryManagement();
 	List<String> wordList = new ArrayList<>();
 	List<Word> wordSearchedList = new ArrayList<>();
+	Dictionary his = new Dictionary();
 
 	public Controller() throws Exception {
 		DM.insertFromFile(dic);
@@ -110,5 +113,26 @@ public class Controller implements Initializable {
         dic.word_list.clear();
         DM.insertFromFile(dic);
         inputFromTextField();
-	} 
+	}
+
+	public void deleteWord(ActionEvent event) throws Exception {
+		String string = inputWord.getText();
+		Word w =DM.dictionaryLookup(dic, string);
+		Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+		alert.setTitle("Delete Word");
+		alert.setHeaderText("Bạn có chắc xóa từ này?");
+		Optional<ButtonType> option =alert.showAndWait();
+		if(option.get() == ButtonType.OK) {
+			dic.word_list.remove(w);
+			DM.dictionaryExportToFile(dic);
+//			his.word_list.add(w);
+		}
+	}
+
+	void newPage() {
+		inputWord.setText("");
+		selectedWord.setText("");
+		selectedWordExplain.setText("");
+		target.clear();
+	}
 }
