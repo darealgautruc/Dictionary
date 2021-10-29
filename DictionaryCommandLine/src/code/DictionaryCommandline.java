@@ -1,3 +1,5 @@
+package code;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Collections;
@@ -21,35 +23,31 @@ public class DictionaryCommandline {
       showAllWords(a);
     }
     /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
-    public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
-        DM.insertFromFile(dic);
-        showAllWords(dic);
-        Scanner sc = new Scanner(System.in);
-        String tu = sc.next().toLowerCase();
-        DM.dictionaryLookup(dic,tu);
-    }
+//    public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
+//        DM.insertFromFile(dic);
+//        showAllWords(dic);
+//        Scanner sc = new Scanner(System.in);
+//        String tu = sc.next().toLowerCase();
+//        DM.dictionaryLookup(dic,tu);
+//    }
     /** Hàm tra từ.*/
-    public void dictionarySearcher(Dictionary dic,String s) {
+    public Dictionary dictionarySearcher(Dictionary dic,String s) {
         Dictionary a = new Dictionary();
         for(Word w : dic.word_list) {
             if(w.getWord_target().startsWith(s)) {
                 a.word_list.add(w);
                 }
-            }
-            if(a.word_list.isEmpty()){
-                System.out.println("Không có từ bạn cần trong từ điển");
-            }
-            else {
-                showAllWords(a);
-            }
         }
-        public void sort(Dictionary dic) {
-            Collections.sort(dic.word_list, new Comparator<Word>() {
-                @Override
-                public int compare(Word o1, Word o2) {
-                    return o1.getWord_target().compareTo(o2.getWord_target());
-                }
-            });
-        }
+        return a;
+    }
+    
+    public void sort(Dictionary dic) {
+        Collections.sort(dic.word_list, new Comparator<Word>() {
+            @Override
+            public int compare(Word o1, Word o2) {
+                return o1.getWord_target().compareTo(o2.getWord_target());
+            }
+        });
+    }
 }
 

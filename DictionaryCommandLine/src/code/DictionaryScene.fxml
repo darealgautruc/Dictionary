@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="889.0" prefWidth="1256.0" style="-fx-border-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.Controller">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="230.0" style="-fx-background-color: #fdcb6e;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/Dictionarylogo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="2.0" layoutY="199.0" prefHeight="689.0" prefWidth="456.0" style="-fx-background-color: #dfe6e9;">
+         <children>
+            <TextField fx:id="inputWord" layoutX="11.0" layoutY="25.0" onAction="#inputFromTextField" prefHeight="71.0" prefWidth="427.0" promptText="Search" style="-fx-border-color: #0984e3; -fx-border-width: 4; -fx-border-radius: 6;">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </TextField>
+            <JFXListView fx:id="recommendWordList" fixedCellSize="39.0" layoutX="11.0" layoutY="118.0" onMouseClicked="#selectWord" prefHeight="562.0" prefWidth="427.0" stylesheets="@design.css">
+               <styleClass>
+                  <String fx:value="jfx-list-cell" />
+                  <String fx:value="jfx-list-view" />
+               </styleClass>
+            </JFXListView>
+            <ImageView fitHeight="33.0" fitWidth="36.0" layoutX="387.0" layoutY="44.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/API%20Search.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="226.0" prefHeight="200.0" prefWidth="1030.0" style="-fx-background-color: #81ecec;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="221.0" layoutY="14.0" prefHeight="150.0" prefWidth="355.0" text="Dictionary" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="79.0" />
+               </font>
+            </Label>
+            <Pane layoutX="830.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fdcb6e;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/UETbanner.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <JFXTextField fx:id="selectedWord" layoutX="481.0" layoutY="237.0" prefHeight="81.0" prefWidth="756.0" style="-fx-background-color: #dfe6e9;" />
+      <JFXTextArea fx:id="selectedWordExplain" layoutX="497.0" layoutY="334.0" prefHeight="522.0" prefWidth="573.0" />
+      <JFXButton layoutX="1078.0" layoutY="438.0" onAction="#speech" prefHeight="132.0" prefWidth="163.0">
+         <graphic>
+            <ImageView fitHeight="127.0" fitWidth="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/voice.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="1121.0" layoutY="669.0" onAction="#addWord" prefHeight="42.0" prefWidth="106.0" style="-fx-border-color: black; -fx-background-color: #3498db; -fx-border-radius: 6;" text="Thêm từ" textFill="#fbff00" />
+      <JFXButton layoutX="1121.0" layoutY="736.0" prefHeight="42.0" prefWidth="106.0" style="-fx-background-color: #3498db; -fx-border-color: black; -fx-border-radius: 6;" text="Sửa từ" textFill="#fbff00" />
+      <JFXButton layoutX="1121.0" layoutY="801.0" prefHeight="42.0" prefWidth="106.0" style="-fx-background-color: #3498db; -fx-border-color: black; -fx-border-radius: 6;" text="Xóa từ" textFill="#fbff00" />
+   </children>
+</AnchorPane>

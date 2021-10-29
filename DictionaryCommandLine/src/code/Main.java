@@ -1,17 +1,28 @@
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.util.Scanner;
+package code;
 
-public class Main {
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.stage.Stage;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 
-	public static void main(String[] args) throws IOException ,FileNotFoundException, UnsupportedEncodingException {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		Dictionary dic = new Dictionary();
-		DictionaryCommandline DC = new DictionaryCommandline();
-		DictionaryManagement DM = new DictionaryManagement();
-		DM.insertFromFile(dic);
+public class Main extends Application {
+
+	@Override
+	public void start(Stage stage) throws Exception {
+		Parent root = FXMLLoader.load(getClass().getResource("DictionaryScene.fxml"));
+        stage.setResizable(false);
+        stage.setTitle("Dictionary English-Vietnamese");
+        stage.setScene(new Scene(root));
+        stage.show();
+	}
+	
+	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		Dictionary dic = new Dictionary();
+//		DictionaryCommandline DC = new DictionaryCommandline();
+//		DictionaryManagement DM = new DictionaryManagement();
+//		DM.insertFromFile(dic);
 //		while (true) {
 //			System.out.println("---------------------------------");
 //			System.out.println("Tôi có thể giúp gì cho bạn?\n" +
@@ -39,7 +50,8 @@ public class Main {
 //				return;
 //			}
 //		}
-		DM.delete(dic);
+////		DM.delete(dic);
+		launch(args);
 	}
 
 }
