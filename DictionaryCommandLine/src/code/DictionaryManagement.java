@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class DictionaryManagement {
+
     /**
      * Thêm từ mới từ dòng lệnh vào danh sách từ.
      */
@@ -87,65 +88,66 @@ public class DictionaryManagement {
         }
         return false;
     }
-
-    /**
-     * Thêm sửa xóa từ.
-     */
-    public void themSuaXoa(Dictionary dic,DictionaryCommandline DC) throws IOException {
-        String s = new String();
-        Scanner sc = new Scanner(System.in);
-        while (true) {
-            System.out.println("Bạn sẽ làm gì?\n 1:Thêm từ.\n 2:Sửa từ.\n 3:Xóa từ.\n 4:Không làm gì cả!");
-            int n = sc.nextInt();
-            sc.nextLine();
-            if (n == 1) {
-                insertFromCommandline(dic);
-    // Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
-                dictionaryExportToFile(dic);
-            }
-            // Note sửa từ.
-            if (n == 2) {
-                System.out.println("Nhập từ bạn muốn sửa: ");
-                s = sc.nextLine().toLowerCase();
-                if (!existsWord(dic, s)) {
-                    System.out.println("Không có từ này trong từ điển. Vui lòng kiểm tra lại");
-                } else {
-                    for(int i = 0; i < dic.word_list.size(); i++) {
-                        if(s.equals(dic.word_list.get(i).getWord_target())) {
-                            System.out.println("Nhập nghĩa mới của từ: ");
-                            String nghia = sc.nextLine();
-                            dic.word_list.get(i).setWord_explain(nghia);
-                        }
-                    }
-                }
-//<<<<<<< Updated upstream
-                dictionaryExportToFile(dic);
-//=======
-////               removeFile(dic);
-//               dictionaryExportToFile(dic);
-//>>>>>>> Stashed changes
-            }
-
-            if (n == 3) {
-                System.out.println("Nhập từ bạn muốn xóa: ");
-                s = sc.next().toLowerCase();
-                if (!existsWord(dic, s)) {
-                    System.out.println("Không có từ này trong từ điển. Vui lòng kiểm tra lại");
-                } else {
-                    for (int i = 0; i < dic.word_list.size(); i++) {
-                        if (s.equals(dic.word_list.get(i).getWord_target())) {
-                            dic.word_list.remove(i);
-                            System.out.println("Đã xóa.");
-                        }
-                    }
-                }
-                dictionaryExportToFile(dic);
-            }
-            if( n==4) {
-                return;
-            }
-        }
-    }
+//
+//    /**
+//     * Thêm sửa xóa từ.
+//     */
+//    public void themSuaXoa(Dictionary dic,DictionaryCommandline DC) throws IOException {
+//        String s = new String();
+//        Scanner sc = new Scanner(System.in);
+//        while (true) {
+//            System.out.println("Bạn sẽ làm gì?\n 1:Thêm từ.\n 2:Sửa từ.\n 3:Xóa từ.\n 4:Không làm gì cả!");
+//            int n = sc.nextInt();
+//            sc.nextLine();
+//            if (n == 1) {
+//                insertFromCommandline(dic);
+//    // Xóa file ghi dữ liệu và tạo lại file mới có lấy kết quả của list mới
+//                dictionaryExportToFile(dic);
+//            }
+//            // Note sửa từ.
+//            if (n == 2) {
+//                System.out.println("Nhập từ bạn muốn sửa: ");
+//                s = sc.nextLine().toLowerCase();
+//                if (!existsWord(dic, s)) {
+//                    System.out.println("Không có từ này trong từ điển. Vui lòng kiểm tra lại");
+//                } else {
+//                    for(int i = 0; i < dic.word_list.size(); i++) {
+//                        if(s.equals(dic.word_list.get(i).getWord_target())) {
+//                            System.out.println("Nhập nghĩa mới của từ: ");
+//                            String nghia = sc.nextLine();
+//                            dic.word_list.get(i).setWord_explain(nghia);
+//                        }
+//                    }
+//                }
+////<<<<<<< Updated upstream
+//                dictionaryExportToFile(dic);
+////=======
+//////               removeFile(dic);
+////               dictionaryExportToFile(dic);
+////>>>>>>> Stashed changes
+//            }
+//
+//            if (n == 3) {
+//                System.out.println("Nhập từ bạn muốn xóa: ");
+//                s = sc.next().toLowerCase();
+//                if (!existsWord(dic, s)) {
+//                    System.out.println("Không có từ này trong từ điển. Vui lòng kiểm tra lại");
+//                } else {
+//                    for (int i = 0; i < dic.word_list.size(); i++) {
+//                        if (s.equals(dic.word_list.get(i).getWord_target())) {
+//                            dic.word_list.remove(i);
+//                            System.out.println("Đã xóa.");
+//                        }
+//                    }
+//                }
+//                dictionaryExportToFile(dic);
+//            }
+//            if( n==4) {
+//                return;
+//            }
+//        }
+//    }
+//
     /**
      * Hàm ghi từ vào file.
      */
@@ -165,6 +167,10 @@ public class DictionaryManagement {
                 }
             }
         }
+    }
+
+    public void xoaTu(String s) {
+
     }
 }
 
