@@ -22,6 +22,7 @@ public class ControllerThemTu {
 		Word tuCanThem = new Word(tuDeThem.getText(), nghiaDeThem.getText());
         if(!DM.existsWord(dic, tuDeThem.getText())) {
             dic.word_list.add(tuCanThem);
+            DM.deleteFile(dic);
             DM.dictionaryExportToFile(dic);
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Thành công");

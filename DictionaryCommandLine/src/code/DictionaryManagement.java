@@ -96,6 +96,15 @@ public class DictionaryManagement {
     }
 
     /**
+     * Hàm xóa file.
+     * @param dic .
+     */
+    public void deleteFile(Dictionary dic) {
+        File file = new File("src/dictionary.txt");
+        file.delete();
+    }
+
+    /**
      * Xóa từ giống nhau.
      * @param dic .
      */

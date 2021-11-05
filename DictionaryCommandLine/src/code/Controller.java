@@ -2,6 +2,7 @@ package code;
 
 import java.awt.event.ActionEvent;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -92,12 +93,13 @@ public class Controller implements Initializable {
     }
 	
 	public void speech() {
-		System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-        VoiceManager vm = VoiceManager.getInstance();
-        Voice voice = vm.getVoice("kevin16");
-        voice.allocate();
-        voice.speak(selectedWord.getText());
-	} 
+		String text = selectedWord.getText();
+		VoiceManager voiceManager = VoiceManager.getInstance();
+		com.sun.speech.freetts.Voice syntheticVoice = voiceManager.getVoice("kevin16");
+		syntheticVoice.allocate();
+		syntheticVoice.speak(text);
+		syntheticVoice.deallocate();
+	}
 	 
 	public void addWord() throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Themtu.fxml"));
@@ -142,4 +144,8 @@ public class Controller implements Initializable {
 		selectedWordExplain.setText("");
 		target.clear();
 	}
+	public void API() throws Exception {
+		selectedWordExplain.setText(API.translate("en","vi",selectedWord.getText()));
+	}
+
 }

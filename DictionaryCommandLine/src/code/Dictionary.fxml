@@ -50,7 +50,7 @@
          <children>
             <JFXTextField fx:id="selectedWord" layoutX="14.0" layoutY="25.0" prefHeight="61.0" prefWidth="416.0" style="-fx-background-color: #dfe6e9;" />
             <JFXTextArea fx:id="selectedWordExplain" layoutX="16.0" layoutY="109.0" prefHeight="381.0" prefWidth="409.0" />
-            <JFXButton layoutX="467.0" layoutY="26.0" prefHeight="61.0" prefWidth="90.0" text="API">
+            <JFXButton layoutX="467.0" layoutY="26.0" onAction="#API" prefHeight="61.0" prefWidth="90.0" text="API">
                <graphic>
                   <ImageView fitHeight="150.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -59,7 +59,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton layoutX="468.0" layoutY="162.0" prefHeight="65.0" prefWidth="75.0" text="Voice">
+            <JFXButton layoutX="468.0" layoutY="162.0" onAction="#speech" prefHeight="65.0" prefWidth="75.0" text="Voice">
                <graphic>
                   <ImageView fitHeight="56.0" fitWidth="86.0" onMouseClicked="#speech" pickOnBounds="true" preserveRatio="true">
                      <image>
