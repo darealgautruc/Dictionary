@@ -12,14 +12,12 @@ absolutely	chắc chắn rồi
 absorb	hấp thụ
 abstract	trừu tượng
 abuse	lạm dụng
-abuse	lạm dụng
 academic	học tập
 accelerate	đẩy nhanh
 accent	giọng điệu
 accept	chấp nhận
 acceptable	chấp nhận được
 acceptance	chấp thuận
-access	truy cập
 access	truy cập
 accessible	có thể truy cập
 accident	tai nạn
@@ -28,6 +26,7 @@ accompany	đi kèm
 accomplish	hoàn thành
 accomplishment	hoàn thành
 according	theo
+account	tài khoản
 account	tài khoản
 accountability	trách nhiệm giải trình
 accounting	kế toán
@@ -4995,9 +4994,10 @@ yours	của bạn
 yourself	bản thân bạn
 youth	thiếu niên
 zone	vùng
-zoo	sở thú 
-zebu	bò 
-zeabra	ngựa vằn
 zero	số không
+zeus	thần Dớt
 zed	chữ Z
-zing	hăng hái
+zap	phá hủy
+zigzag	ngoằn nghèo
+zany	nhố nhăng
+zee	mỹ

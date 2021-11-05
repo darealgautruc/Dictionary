@@ -169,6 +169,14 @@ public class DictionaryManagement {
         }
     }
 
+    /**
+     * Xóa file.
+     */
+    public void deleteFile() {
+        File file = new File("src/dictionary.txt");
+        file.delete();
+    }
+
 
 
 }

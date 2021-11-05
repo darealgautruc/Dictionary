@@ -35,28 +35,23 @@ public class DictionaryCommandline {
         });
     }
 
-//  /** In ra danh sách các từ.*/
-//  public void showAllWords(Dictionary x) {
-//      sort(x);
-//      System.out.println("No  | English                  | Vietnamese");
-//      for(int i=0; i<x.word_list.size(); i++) {
-//          System.out.printf("%-3s| %-26s| %s\n",i+1,x.word_list.get(i).getWord_target(),x.word_list.get(i).getWord_explain());
-//      }
-//  }
-//  /** gọi 2 hàm thêm từ (dòng lệnh) và in ra từ.*/
-//  public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
-//    DM.insertFromCommandline(a);
-//    showAllWords(a);
-//  }
-//  /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
-//  public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
-//      DM.insertFromFile(dic);
-//      showAllWords(dic);
-//      Scanner sc = new Scanner(System.in);
-//      String tu = sc.next().toLowerCase();
-//      DM.dictionaryLookup(dic,tu);
-//  }
-
+    /**
+     * Sửa chính tả.
+     * @param dic .
+     * @param s .
+     * @return .
+     */
+    public String suaChinhTa(Dictionary dic, String s) {
+        List<String> dsSua = new ArrayList<>();
+        for (int i = 0; i < s.length(); i++) {
+            for (Word w : dic.word_list) {
+                if (w.getWord_target().startsWith(s.substring(0, i))) {
+                    dsSua.add(w.getWord_target());
+                }
+            }
+        }
+        return dsSua.get(dsSua.size()-1);
+    }
 
 }
 
