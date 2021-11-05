@@ -6,15 +6,15 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.ControllerThemTu">
    <children>
       <Label layoutX="147.0" layoutY="14.0" prefHeight="85.0" prefWidth="431.0" text="Bạn muốn thêm từ nào?" textFill="#008071">
          <font>
             <Font name="Times New Roman" size="37.0" />
          </font>
       </Label>
-      <TextField fx:id="wordTargetAdd" layoutX="26.0" layoutY="89.0" prefHeight="58.0" prefWidth="442.0" promptText="Nhập từ bạn muốn thêm" style="-fx-border-color: black;" />
-      <Button layoutX="526.0" layoutY="96.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: fff; -fx-border-color: black; -fx-border-radius: 6;" text="Thêm" />
-      <TextArea fx:id="wordExplainAdd" layoutX="26.0" layoutY="161.0" prefHeight="275.0" prefWidth="561.0" promptText="Nhập nghĩa của từ" style="-fx-border-color: black;" />
+      <TextField fx:id="tuDeThem" layoutX="26.0" layoutY="89.0" prefHeight="58.0" prefWidth="442.0" promptText="Nhập từ bạn muốn thêm" style="-fx-border-color: black;" />
+      <Button layoutX="526.0" layoutY="96.0" onMouseClicked="#themTu" mnemonicParsing="false" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: fff; -fx-border-color: black; -fx-border-radius: 6;" text="Thêm" />
+      <TextArea fx:id="nghiaDeThem" layoutX="26.0" layoutY="161.0" prefHeight="275.0" prefWidth="561.0" promptText="Nhập nghĩa của từ" style="-fx-border-color: black;" />
    </children>
 </AnchorPane>

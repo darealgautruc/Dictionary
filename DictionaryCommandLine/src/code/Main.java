@@ -10,7 +10,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("DictionaryScene.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("Dictionary.fxml"));
         stage.setResizable(false);
         stage.setTitle("Dictionary English-Vietnamese");
         stage.setScene(new Scene(root));
@@ -18,6 +18,8 @@ public class Main extends Application {
 	}
 	
 	public static void main(String[] args) {
+		launch(args);
+	}
 //		Scanner sc = new Scanner(System.in);
 //		Dictionary dic = new Dictionary();
 //		DictionaryCommandline DC = new DictionaryCommandline();
@@ -51,7 +53,6 @@ public class Main extends Application {
 //			}
 //		}
 ////		DM.delete(dic);
-		launch(args);
-	}
+
 
 }

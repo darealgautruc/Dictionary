@@ -20,9 +20,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import code.Word;
 
 public class Controller implements Initializable {
 	private ObservableList<String> target;
@@ -42,7 +45,6 @@ public class Controller implements Initializable {
 	DictionaryManagement DM = new DictionaryManagement();
 	List<String> wordList = new ArrayList<>();
 	List<Word> wordSearchedList = new ArrayList<>();
-	Dictionary his = new Dictionary();
 
 	public Controller() throws Exception {
 		DM.insertFromFile(dic);
@@ -64,30 +66,24 @@ public class Controller implements Initializable {
 	@FXML
 	private void inputFromTextField() {
 		String s = inputWord.getText();
-		List<Word> wordStartWithS = DC.dictionarySearcher(dic, s).word_list;
-		List<String> recommendWord = new ArrayList<>();
-		for(Word w : wordStartWithS) {
-			recommendWord.add(w.getWord_target());
-		}
+		List<String> wordStartWithS = DC.dictionarySearcher(dic, s);
 		target.clear();
-		target.addAll(recommendWord);
-		word.clear();
-		word.addAll(wordStartWithS);
-	    if (word.size() == 0 || s == null) {
-	    	selectedWordExplain.setText("");
-	    	selectedWord.setText("");
-	    } else if (s == "") {
-	    	selectedWordExplain.setText("");
-	    	selectedWord.setText("");
-	    } else {
-	    	selectedWord.setText(word.get(0).getWord_target());
-	    	selectedWordExplain.setText(word.get(0).getWord_explain());
-	    }
+		target.addAll(wordStartWithS);
+	}
+	
+	@FXML
+	public void enterFromTextField(KeyEvent event) throws Exception {
+		if (event.getCode() == KeyCode.ENTER) {
+			String s = target.get(0);
+			selectedWord.setText(s);
+			inputWord.setText(s);
+			Word w = DM.dictionaryLookup(dic, s);
+			selectedWordExplain.setText(s);
+		}
 	}
 	
 	@FXML
     public void selectWord(MouseEvent event) throws Exception {
-        DM.dictionaryExportToFile(dic);
         String s = recommendWordList.getSelectionModel().getSelectedItem();
         selectedWord.setText(s);
         inputWord.setText(s);
@@ -114,18 +110,29 @@ public class Controller implements Initializable {
         DM.insertFromFile(dic);
         inputFromTextField();
 	}
+	
+	public void modifyWord() throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("Suatu.fxml"));
+        Stage primaryStage = new Stage();
+        primaryStage.setTitle("Sửa từ");
+        primaryStage.setScene(new Scene(root));
+        primaryStage.initModality(Modality.APPLICATION_MODAL);
+        primaryStage.showAndWait();
+        dic.word_list.clear();
+        DM.insertFromFile(dic);
+        inputFromTextField();
+	}
 
-	public void deleteWord(ActionEvent event) throws Exception {
-		String string = inputWord.getText();
-		Word w =DM.dictionaryLookup(dic, string);
+	public void deleteWord() throws Exception {
+		String string = selectedWord.getText();
+		Word w = DM.dictionaryLookup(dic, string);
 		Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
 		alert.setTitle("Delete Word");
 		alert.setHeaderText("Bạn có chắc xóa từ này?");
-		Optional<ButtonType> option =alert.showAndWait();
+		Optional<ButtonType> option = alert.showAndWait();
 		if(option.get() == ButtonType.OK) {
-			dic.word_list.remove(w);
-			DM.dictionaryExportToFile(dic);
-//			his.word_list.add(w);
+			DM.xoaTu(dic, string);
+			inputFromTextField();
 		}
 	}
 

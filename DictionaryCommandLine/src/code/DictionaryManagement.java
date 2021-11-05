@@ -8,28 +8,27 @@ import java.util.Scanner;
 
 public class DictionaryManagement {
 
-
-    /**
-     * Thêm từ mới từ dòng lệnh vào danh sách từ.
-     */
-    public void insertFromCommandline(Dictionary dic) {
-        Scanner sc = new Scanner(System.in);
-        String TA;
-        String TV;
-        System.out.println("Nhập từ Tiếng Anh: ");
-        TA = sc.nextLine().toLowerCase();
-        if (existsWord(dic, TA)) {
-            System.out.println("Từ này đã có trong từ điển. Vui lòng nhập từ khác");
-            return;
-        }
-        System.out.println("Nhập nghĩa Tiếng Việt: ");
-        TV = sc.nextLine();
-        Word tuMoi = new Word(TA, TV);
-        dic.word_list.add(tuMoi);
-        System.out.println("Đã thêm " + TA + " vào từ điển");
-
-
-    }
+//    /**
+//     * Thêm từ mới từ dòng lệnh vào danh sách từ.
+//     */
+//    public void insertFromCommandline(Dictionary dic) {
+//        Scanner sc = new Scanner(System.in);
+//        String TA;
+//        String TV;
+//        System.out.println("Nhập từ Tiếng Anh: ");
+//        TA = sc.nextLine().toLowerCase();
+//        if (existsWord(dic, TA)) {
+//            System.out.println("Từ này đã có trong từ điển. Vui lòng nhập từ khác");
+//            return;
+//        }
+//        System.out.println("Nhập nghĩa Tiếng Việt: ");
+//        TV = sc.nextLine();
+//        Word tuMoi = new Word(TA, TV);
+//        dic.word_list.add(tuMoi);
+//        System.out.println("Đã thêm " + TA + " vào từ điển");
+//
+//
+//    }
 
     /**
      * Nhập dữ liệu từ điển từ file.
@@ -51,7 +50,7 @@ public class DictionaryManagement {
     }
 
     /**
-     * Tra cứu từ điển từ dòng lệnh.
+     * Tra từ.
      */
     public Word dictionaryLookup(Dictionary dic, String s) {
     	int count = 0;

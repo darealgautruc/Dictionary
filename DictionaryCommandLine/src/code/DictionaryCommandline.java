@@ -6,28 +6,6 @@ import java.util.*;
 public class DictionaryCommandline {
     private DictionaryManagement DM = new DictionaryManagement();
 
-    /** In ra danh sách các từ.*/
-    public void showAllWords(Dictionary x) {
-        sort(x);
-        System.out.println("No  | English                  | Vietnamese");
-        for(int i=0; i<x.word_list.size(); i++) {
-            System.out.printf("%-3s| %-26s| %s\n",i+1,x.word_list.get(i).getWord_target(),x.word_list.get(i).getWord_explain());
-        }
-    }
-    /** gọi 2 hàm thêm từ (dòng lệnh) và in ra từ.*/
-    public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
-      DM.insertFromCommandline(a);
-      showAllWords(a);
-    }
-    /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
-//    public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
-//        DM.insertFromFile(dic);
-//        showAllWords(dic);
-//        Scanner sc = new Scanner(System.in);
-//        String tu = sc.next().toLowerCase();
-//        DM.dictionaryLookup(dic,tu);
-//    }
-
     /**
      * Gợi ý từ
      * @param dic .
@@ -56,5 +34,29 @@ public class DictionaryCommandline {
             }
         });
     }
+    
+//  /** In ra danh sách các từ.*/
+//  public void showAllWords(Dictionary x) {
+//      sort(x);
+//      System.out.println("No  | English                  | Vietnamese");
+//      for(int i=0; i<x.word_list.size(); i++) {
+//          System.out.printf("%-3s| %-26s| %s\n",i+1,x.word_list.get(i).getWord_target(),x.word_list.get(i).getWord_explain());
+//      }
+//  }
+//  /** gọi 2 hàm thêm từ (dòng lệnh) và in ra từ.*/
+//  public void dictionaryBasic(Dictionary a) throws FileNotFoundException {
+//    DM.insertFromCommandline(a);
+//    showAllWords(a);
+//  }
+//  /** gọi hàm thêm từ(file), in ra từ, kiểm tra từ*/
+//  public void dictionaryAdvanced(Dictionary dic) throws FileNotFoundException, IOException {
+//      DM.insertFromFile(dic);
+//      showAllWords(dic);
+//      Scanner sc = new Scanner(System.in);
+//      String tu = sc.next().toLowerCase();
+//      DM.dictionaryLookup(dic,tu);
+//  }
+
+
 }
 
