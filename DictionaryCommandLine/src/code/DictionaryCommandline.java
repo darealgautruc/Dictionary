@@ -1,10 +1,7 @@
 package code;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class DictionaryCommandline {
     private DictionaryManagement DM = new DictionaryManagement();
@@ -30,17 +27,27 @@ public class DictionaryCommandline {
 //        String tu = sc.next().toLowerCase();
 //        DM.dictionaryLookup(dic,tu);
 //    }
-    /** Hàm tra từ.*/
-    public Dictionary dictionarySearcher(Dictionary dic,String s) {
-        Dictionary a = new Dictionary();
-        for(Word w : dic.word_list) {
-            if(w.getWord_target().startsWith(s)) {
-                a.word_list.add(w);
-                }
+
+    /**
+     * Gợi ý từ
+     * @param dic .
+     * @param s .
+     * @return .
+     */
+    public List dictionarySearcher(Dictionary dic, String s) {
+        List<String> listSearch = new ArrayList<>();
+        for(int i = 0; i < dic.word_list.size(); i++) {
+            if(dic.word_list.get(i).getWord_target().startsWith(s)) {
+                listSearch.add(dic.word_list.get(i).getWord_target());
+            }
         }
-        return a;
+        return listSearch;
     }
-    
+
+    /**
+     * Sắp xếp từ .
+     * @param dic .
+     */
     public void sort(Dictionary dic) {
         Collections.sort(dic.word_list, new Comparator<Word>() {
             @Override
