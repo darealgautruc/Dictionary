@@ -61,27 +61,44 @@ public class Controller implements Initializable {
         target = FXCollections.observableList(wordList);
         word = FXCollections.observableArrayList(dic.word_list);
         recommendWordList.setItems(target);
-        inputWord.setOnKeyReleased(event -> inputFromTextField());
+        inputWord.setOnKeyReleased(event -> {
+			try {
+				inputFromTextField(event);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		});
     }
 	
 	@FXML
-	private void inputFromTextField() {
+	private void inputFromTextField(KeyEvent event) throws Exception {
 		String s = inputWord.getText();
 		List<String> wordStartWithS = DC.dictionarySearcher(dic, s);
 		target.clear();
 		target.addAll(wordStartWithS);
-	}
-	
-	@FXML
-	public void enterFromTextField(KeyEvent event) throws Exception {
 		if (event.getCode() == KeyCode.ENTER) {
-			String s = target.get(0);
+			if (target.size() == 0) {
+				s = DC.suaChinhTa(dic, s);
+			} else {
+				s = target.get(0);
+			}
 			selectedWord.setText(s);
-			inputWord.setText(s);
 			Word w = DM.dictionaryLookup(dic, s);
-			selectedWordExplain.setText(s);
+			selectedWordExplain.setText(w.getWord_explain());
 		}
 	}
+	
+//	@FXML
+//	public void enterFromTextField(KeyEvent event) throws Exception {
+//		if (event.getCode() == KeyCode.ENTER) {
+//			String s = target.get(0);
+//			selectedWord.setText(s);
+//			inputWord.setText(s);
+//			Word w = DM.dictionaryLookup(dic, s);
+//			selectedWordExplain.setText(s);
+//		}
+//	}
 	
 	@FXML
     public void selectWord(MouseEvent event) throws Exception {
@@ -110,7 +127,7 @@ public class Controller implements Initializable {
         primaryStage.showAndWait();
         dic.word_list.clear();
         DM.insertFromFile(dic);
-        inputFromTextField();
+        newPage();
 	}
 	
 	public void modifyWord() throws Exception {
@@ -122,7 +139,7 @@ public class Controller implements Initializable {
         primaryStage.showAndWait();
         dic.word_list.clear();
         DM.insertFromFile(dic);
-        inputFromTextField();
+        newPage();
 	}
 
 	public void deleteWord() throws Exception {
@@ -134,7 +151,7 @@ public class Controller implements Initializable {
 		Optional<ButtonType> option = alert.showAndWait();
 		if(option.get() == ButtonType.OK) {
 			DM.xoaTu(dic, string);
-			inputFromTextField();
+			newPage();
 		}
 	}
 
@@ -144,6 +161,7 @@ public class Controller implements Initializable {
 		selectedWordExplain.setText("");
 		target.clear();
 	}
+	
 	public void API() throws Exception {
 		selectedWordExplain.setText(API.translate("en","vi",selectedWord.getText()));
 	}

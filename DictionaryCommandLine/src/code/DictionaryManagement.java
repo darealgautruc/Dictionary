@@ -88,7 +88,8 @@ public class DictionaryManagement {
      * Hàm ghi từ vào file.
      */
     public void dictionaryExportToFile(Dictionary dic) throws IOException {
-        FileWriter file = new FileWriter("src/dictionary.txt");
+        deleteFile();
+    	FileWriter file = new FileWriter("src/dictionary.txt");
         for(int i = 0; i < dic.word_list.size(); i++) {
             file.write(dic.word_list.get(i).getWord_target() + '\t' + dic.word_list.get(i).getWord_explain() + '\n');
         }
