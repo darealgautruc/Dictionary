@@ -127,6 +127,7 @@ public class Controller implements Initializable {
         primaryStage.showAndWait();
         dic.word_list.clear();
         DM.insertFromFile(dic);
+        DC.sort(dic);
         newPage();
 	}
 	
@@ -139,6 +140,7 @@ public class Controller implements Initializable {
         primaryStage.showAndWait();
         dic.word_list.clear();
         DM.insertFromFile(dic);
+        DC.sort(dic);
         newPage();
 	}
 
